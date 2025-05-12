@@ -7,7 +7,17 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
-class Controller extends BaseController
+class HomePageController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function index(){
+
+        $data = [
+            'name' => 'Jane',
+            'age' => 25
+        ];
+
+        return view('index', $data); // 或使用 compact()
+    }
 }
