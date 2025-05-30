@@ -29,7 +29,8 @@
         "ext-json": "*",
         "ext-curl": "*",
         "ext-pdo": "*",
-        "ext-bcmath": "*"
+        "ext-bcmath": "*",
+        "qiniu/php-sdk": "^7.14"
     },
     "config": {
         "preferred-install": "dist",
