@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{ld:src src='default/css/bootstrap.min.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/swiper-bundle.min.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/jquery.fullpage.min.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/style.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/ellipsis.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/animate.min.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/style1.css'}">
+  <link rel="stylesheet" href="{ld:src src='default/css/element.css'}">
+  <script src="{ld:src src='default/js/jquery-1.12.4.min.js'}"></script>
+  <script src="{ld:src src='default/js/scrollreveal.js'}"></script>
+  <script src="{ld:src src='default/js/bootstrap.min.js'}"></script>
+  <script src="{ld:src src='default/js/swiper-bundle.min.js'}"></script>
+  <script src="{ld:src src='default/js/jquery.fullpage.min.js'}"></script>
+  <script src="{ld:src src='default/js/countUp.js'}"></script>
+  <script src="{ld:src src='default/js/common.js'}"></script>
+  <script src="{ld:src src='default/js/ellipsis.js'}"></script>
+  <script src="{ld:src src='default/js/omit.js'}"></script>
+  <script src="{ld:src src='default/js/no.js'}"></script>
+  <script src="{ld:src src='default/js/vue.js'}"></script>
+  <script src="{ld:src src='default/js/element.js'}"></script>
+  <script src="{ld:src src='default/js/base.js'}"></script>
+  <script src="{ld:src src='default/js/city.js'}"></script>
+  <script src="{ld:src src='default/js/axios.min.js'}"></script>
+
+
+  <title> 艾诺仪器 Ainuo | 新能源测试电源,交直流电源,飞机地面电源 - 山东艾诺仪器 Ainuo </title>
+  <meta name="keywords"
+        content="艾诺仪器,Ainuo,交流电源,直流电源,双向直流电源,电网模拟电源,电池模拟器,安规测试仪,功率分析仪,电机测试系统,电子负载,山东艾诺,艾诺仪器,艾诺仪器公司,山东艾诺仪器有限公司">
+  <meta name="description"
+        content="山东艾诺仪器30年专注研发生产交直流电源、双向直流电源、电网模拟电源、电池模拟器、安规测试仪、功率分析仪、电机测试系统、电子负载等。产品主要应用于电力电子、电机、新能源汽车、光伏等行业，是山东高新技术企业，为客户提供电力电子测试解决方案。">
+</head>
+<body>
+<!-- 导航 -->
+<div class="global-nav-container home">
+  <div class="global-nav animate__animated animate__fadeInLeftBig">
+
+
+    <div class="d-none d-lg-flex container fix nav-pc">
+      <a href="index.htm" class="nav-brand">
+        <img class="img-native" src="uploads/images/20230523/2989458b611dfb3cf45d6cdac7f9dc68.png">
+      </a>
+
+      <ul class="nav-list">
+
+        {ld:nav pid=0}
+        <!--产品介绍-->
+
+        {if condition="$item.mid == 6"}
+        <li class="nav-li">
+          <div class="li-a-box">
+            <a class="li-a" href="{$item.url}">{$item.name}</a><!--一级-->
+          </div>
+          <div class="nav-hide-list container">
+            <div class="product-hide-list-container">
+              <div class="product-hide-left">
+                <div class="product-hide-left-container">
+                  <div class="product-hide-header">
+                    <text>{$item.name}</text><!--一级-->
+                    <div class="iconfont icon-icon-arrow-right"></div>
+                  </div>
+                  <div class="product-hide-body">
+                    {ld:nav pid="$item['id']"}
+                    <div class="body-item">
+                      <div class="body-item-header">
+                        <text>{$item.name}</text><!--二级-->
+                        <div class="iconfont icon-icon-arrow-right"></div>
+                      </div>
+                      {ld:nav pid="$item['id']"}
+                      <div class="body-item-list">
+                        <div class="list-i" data-id="{$item.id}">
+                          <text>{$item.name}</text><!--三级-->
+                          <div class="iconfont icon-icon-arrow-right"></div>
+                        </div>
+                      </div>
+                      {/ld:nav}
+                    </div>
+                    {/ld:nav}
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-hide-right">
+
+
+                {ld:levelnav level="3"}
+
+                <div class="product-hide-right-page" data-id="{$item.pid}">
+                  <div class="page-item">
+                    <a href="{$item.url}" class="page-item-title">{$item.name}</a><!--四级-->
+                    <div class="page-item-content">
+
+                      {ld:nav pid="$item['id']"}
+                      <a href="{$item.url}" class="page-item-content-item">{$item.name}                         <text></text>
+                      </a><!--五级-->
+                      {/ld:nav}
+                    </div>
+                  </div>
+
+
+                </div>
+
+                {/ld:levelnav}
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        {elseif condition="$item.mid == 7"}
+
+        <li class="nav-li">
+          <div class="li-a-box">
+            <a class="li-a" href="{$item.url}">{$item.name}</a>
+            <div class="nav-hide-list">
+              {ld:nav pid="$item['id']"}
+              <div class="hide-item">
+                <a class="hide-item-row" href="{$item.url}">
+                  {$item.name}                  <i class="iconfont icon-icon-arrow-right"></i>
+                </a>
+                <div class="hide-item-extend">
+                  {ld:nav pid="$item['id']"}
+                  <a href="{$item.url}" class="extend-item">{$item.name}</a>
+                  {/ld:nav}
+                  <div class="arrow"></div>
+                </div>
+              </div>
+              {/ld:nav}
+            </div>
+
+          </div>
+        </li>
+
+        {else/}
+
+        <li class="nav-li">
+          <div class="li-a-box">
+            <a class="li-a" href="{$item.url}">{$item.name}</a>
+            <div class="nav-hide-list">
+
+              {ld:nav pid="$item['id']"}
+              <div class="hide-item">
+                <a class="hide-item-row" href="{$item.url}">
+                  {$item.name}                    <i class="iconfont icon-icon-arrow-right"></i>
+                </a>
+              </div>
+              {/ld:nav}
+            </div>
+          </div>
+        </li>
+        {/if}
+
+        {/ld:nav}
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <!-- 手机端 -->
+    <div class="d-flex d-lg-none nav-ph">
+      <a href="#" class="nav-brand">
+        <img class="img-native" src="uploads/images/20230523/2989458b611dfb3cf45d6cdac7f9dc68.png">
+      </a>
+      <div class="iconfont icon-caidan"></div>
+      <div class="nav-list-container">
+        <div class="close-box">
+          <div class="iconfont icon-RectangleCopy"></div>
+        </div>
+        <ul class="nav-list">
+          {ld:nav pid=0}
+          {if condition="$item.mid == 6"}
+          <li class="nav-li">
+            <div class="li-row">
+              <a class="li-a" href="{$item.url}">{$item.name}</a><!--一级-->
+              <span data-open="false" class="arrows iconfont icon-icon-arrow-right"></span>
+            </div>
+            <ul class="next-list">
+
+              {ld:nav pid="$item['id']"}
+              <li class="nav-li">
+                <div class="li-row">
+                  <div class="li-a">{$item.name}</div><!--二级-->
+                  <span data-open="false"
+                        class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                </div>
+                <ul class="next-list">
+
+                  {ld:nav pid="$item['id']"}
+                  <li class="nav-li">
+                    <div class="li-row">
+                      <div class="li-a">{$item.name}</div><!--三级-->
+                      <span data-open="false"
+                            class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                    </div>
+                    <ul class="next-list">
+
+                      {ld:nav pid="$item['id']"}
+                      <li class="nav-li">
+                        <div class="li-row">
+                          <a href="{$item.url}" class="li-a">{$item.name}</a><!--四级-->
+                          <span data-open="false"
+                                class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                        </div>
+                        <ul class="next-list">
+
+                          {ld:nav pid="$item['id']"}
+                          <li class="nav-li">
+                            <div class="li-row">
+                              <a class="li-a" href="{$item.url}">{$item.name}<span></span></a><!--五级-->
+                              <span data-open="false"
+                                    class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                            </div>
+                          </li>
+                          {/ld:nav}
+
+                        </ul>
+                      </li>
+                      {/ld:nav}
+
+                    </ul>
+                  </li>
+
+                  {/ld:nav}
+
+                </ul>
+              </li>
+              {/ld:nav}
+
+            </ul>
+          </li>
+          {else/}
+          <li class="nav-li">
+            <div class="li-row">
+              <a class="li-a" href="{$item.url}">{$item.name}</a>
+              <span data-open="false" class="arrows iconfont icon-icon-arrow-right"></span>
+            </div>
+            <ul class="next-list">
+              {ld:nav pid="$item['id']"}
+              <li class="nav-li">
+                <div class="li-row">
+                  <a class="li-a" href="{$item.url}">{$item.name}</a>
+                  <span data-open="false"
+                        class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                </div>
+              </li>
+              {/ld:nav}
+            </ul>
+          </li>
+          {/if}
+          {/ld:nav}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 箭头 -->
+<!-- 箭头 -->
+<div class="home-bounce">
+  <img class="arrow" src="{ld:src src='default/images/jiantou.png'}" alt="">
+
+  <div class="shadow"></div>
+  <div class="particle-container">
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+    <div class="particle animated-particle"></div>
+  </div>
+</div>
+<script>
+
+  $(function () {
+    // 粒子数组
+    var particles = [...document.querySelectorAll('.particle')]
+    particles.forEach(assignStylesToParticle)
+    $('.home-bounce').click(function () {
+      if ($('.home-bounce .arrow').hasClass('back')) {
+        $.fn.fullpage.moveTo(1);
+      } else {
+        $.fn.fullpage.moveSectionDown();
+      }
+    })
+  })
+
+  function getRandomStyles() {
+    const duration = (Math.random() * 3 + 1).toFixed(2) // duration is between 1 and 4 seconds
+    const x = Math.floor(-10 + Math.random() * 110) // x is between -10% and 100%
+    const y = Math.floor(Math.random() * 100) // y is between 0% and 100%
+    const h = 15 // height is always 15px
+    const w = Math.ceil(Math.random() * 3) // width is between 1 and 3px
+    return {
+      left: `${x}%`,
+      top: `${y}%`,
+      height: `${h}px`,
+      width: `${w}px`,
+      animationDuration: `${duration}s`,
+    }
+  }
+
+  function assignStylesToParticle(element) {
+    if (!element.classList.contains['animated-particle']) {
+      element.classList.add('animated-particle')
+    }
+
+    const style = getRandomStyles()
+
+    Object.keys(style).forEach((key) => {
+      element.style[key] = style[key]
+    })
+
+    element.addEventListener(
+            'animationend',
+            () => {
+              element.classList.remove('animated-particle')
+
+              /*
+                  浏览器会尝试批量处理累积的更改，并且仅在您正在执行的操作结束时执行计算，
+                  这行代码的作用是要求浏览器为您提供有关 dom 的信息。但是为了知道 offsetWidth 的值，
+                  浏览器必须放弃批量更改的计划，现在就执行页面的重排
+                */
+              void element.offsetWidth
+              assignStylesToParticle(element)
+            },
+            {once: true}
+    )
+  }
+</script>
+
+
+{block name="content"}
+{/block}
+
+
+
+<script>
+
+  function jump(url) {
+    window.location.href = url;
+  }
+
+  $(function () {
+    // fullPage
+    $('#fullpage').fullpage({
+      // navigation: true,
+      // navigationPosition: 'right',
+      responsiveWidth: 992,   // 992 以下屏幕不全屏滚动
+      onLeave: function (from, to, direction) {
+        if (window.innerWidth > 576) {
+          if (to === 2) {
+            $('.index-product .product-controller').addClass('animate__fadeInLeftBig')
+            $('.index-product .product-swiper-container').addClass('animate__fadeInRightBig')
+          } else {
+            $('.index-product .product-controller').removeClass('animate__fadeInLeftBig')
+            $('.index-product .product-swiper-container').removeClass('animate__fadeInRightBig')
+          }
+
+          if (to === 3) {
+            $('.index-plan .plan-header').addClass('animate__fadeInLeftBig')
+            $('.index-plan .plan-swiper-container').addClass('animate__fadeInRightBig')
+          } else {
+            $('.index-plan .plan-header').removeClass('animate__fadeInLeftBig')
+            $('.index-plan .plan-swiper-container').removeClass('animate__fadeInRightBig')
+          }
+
+          if (to === 4) {
+            showNumber()
+            $('.index-about .text-col').addClass('animate__fadeInLeftBig')
+            $('.index-about .img-col').addClass('animate__fadeInRightBig')
+          } else {
+            $('.index-about .text-col').removeClass('animate__fadeInLeftBig')
+            $('.index-about .img-col').removeClass('animate__fadeInRightBig')
+          }
+
+          if (to === 5) {
+            $('.index-news .index-title').addClass('animate__fadeInLeftBig')
+            $('.index-news .news-list').addClass('animate__fadeInRightBig')
+          } else {
+            $('.index-news .index-title').removeClass('animate__fadeInLeftBig')
+            $('.index-news .news-list').removeClass('animate__fadeInRightBig')
+          }
+        } else {
+          if (to == 4) {
+            showNumber()
+          }
+        }
+
+
+        if (to === 6) {
+          $('.home-bounce .arrow').addClass('back')
+        } else {
+          $('.home-bounce .arrow').removeClass('back')
+        }
+      },
+    })
+
+    $(window).scroll(function (e) {
+      if ($(window).width() < 992 && $(window).scrollTop() > 50) {
+        $('.global-nav').addClass('top')
+      } else {
+        $('.global-nav').removeClass('top')
+      }
+    })
+
+
+    // 轮播图
+    var homeBanner = new Swiper('.index-banner', {
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      pagination: {
+        el: '.index-banner-pagination',
+        clickable: true
+      },
+    })
+
+    hideVideo()
+
+    function hideVideo() {
+      var width = window.innerWidth
+      if (width < 768) {
+        homeBanner.destroy()
+        console.log(11)
+        var slides = $('.index-banner .swiper-slide')
+        slides.each(function (_, slide) {
+          if ($(slide).attr('v') === 'true') {
+            $(slide).remove()
+          }
+        })
+        homeBanner = new Swiper('.index-banner', {
+          autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+          },
+          loop: true,
+          pagination: {
+            el: '.index-banner-pagination',
+            clickable: true
+          },
+        })
+
+      }
+    }
+
+
+    const productSwiper = new Swiper('.product-swiper', {
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      spaceBetween: 50,
+      on: {
+        slideChangeTransitionStart: function () {
+          const activeIndex = this.activeIndex
+          $(".product-controller .controller-item").each(function (index) {
+            if (index === activeIndex) {
+              $(this).addClass('active').siblings().removeClass('active')
+            }
+          })
+        }
+      }
+    })
+    //解决鼠标悬浮切换效果
+    $(".product-controller .controller-item").mouseenter(function () {
+      $(this).addClass('active').siblings().removeClass('active')
+      productSwiper.slideTo($(this).index(), 300, false);
+    })
+
+
+    // 方案
+    let timeout = null
+    let marginLeft = 0
+
+    if ($(window).width() > 576) {
+      setPlanSwiperPadding()
+    } else {
+      $('.plan-swiper-container').addClass('container home')
+      $('.plan-swiper-container').css({'padding-left': 0})
+    }
+    $(window).resize(function () {
+      if ($(window).width() > 576) {
+        throttling()
+      } else {
+        $('.plan-swiper-container').css({'padding-left': 0})
+      }
+    })
+
+    function throttling() {
+      clearTimeout(timeout)
+      timeout = setTimeout(function () {
+        setPlanSwiperPadding()
+      }, 200)
+    }
+
+    function setPlanSwiperPadding() {
+      marginLeft = ($('.plan-header').outerWidth(true) - $('.plan-header').outerWidth()) / 2
+      $('.plan-swiper-container').css({'padding-left': marginLeft})
+    }
+
+    new Swiper('.plan-swiper', {
+      loop: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 'auto',
+      loopedSlides: 5,
+      spaceBetween: 90,
+      navigation: {
+        nextEl: '.plan-swiper-button-next',
+      },
+      breakpoints: {
+        1920: {
+          spaceBetween: 90,
+        },
+        768: {
+          spaceBetween: 60,
+        },
+        576: {
+          spaceBetween: 30,
+        }
+      }
+    })
+
+    // 关于
+    const counts = []
+    $('.about-data').each(function (_, item) {
+      counts.push(new CountUp(item.id, item.dataset.value, {
+        useEasing: true,  // 过渡动画效果，默认ture
+        useGrouping: false,  // 千分位效果，例：1000->1,000。默认true
+        separator: ',',   // 使用千分位时分割符号
+        decimal: '.',   // 小数位分割符号
+        prefix: '',    // 前置符号
+        suffix: ''    // 后置符号，可汉字
+      }))
+    })
+
+    function showNumber() {
+      counts.forEach(function (item) {
+        item.start()
+      })
+    }
+
+
+    new Swiper('.news-list', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      breakpoints: {
+        1920: {
+          spaceBetween: 25,
+          slidesPerView: 3,
+        },
+        992: {
+          spaceBetween: 20,
+          slidesPerView: 3,
+        },
+        768: {
+          spaceBetween: 20,
+          slidesPerView: 1,
+        }
+      }
+    })
+  })
+  $(function () {
+    let token = localStorage.getItem('token');
+    if (!token) {
+      $('.nav-out').addClass('log-out-none');
+      $('.nav-login').removeClass('log-out-none')
+    } else {
+      $('.nav-login').addClass('log-out-none');
+      $('.nav-out').removeClass('log-out-none')
+    }
+    $('.log-out,.log-out-one').click(function () {
+      localStorage.removeItem('token');
+    })
+  })
+</script>
+</body>
+</html>
+
