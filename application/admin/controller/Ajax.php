@@ -65,241 +65,71 @@ class Ajax extends Backend
     }
 
 
-
     public function upload()
     {
-
         Config::set('default_return_type', 'json');
-        Config::load(APP_PATH . 'extra/upload.php', 'upload');
 
+        //必须还原upload配置,否则分片及cdnurl函数计算错误
+        Config::load(APP_PATH . 'extra/upload.php', 'upload');
 
         $chunkid = $this->request->post("chunkid");
         if ($chunkid) {
             if (!Config::get('upload.chunking')) {
                 $this->error(__('Chunk file disabled'));
             }
-
             $action = $this->request->post("action");
             $chunkindex = $this->request->post("chunkindex/d");
             $chunkcount = $this->request->post("chunkcount/d");
             $filename = $this->request->post("filename");
             $method = $this->request->method(true);
-
-
-            // ================== 七牛云分片处理 ==================
             if ($action == 'merge') {
+                $attachment = null;
+                //合并分片文件
                 try {
-                    // 获取当前存储驱动配置
-                    $driver = config('upload.default');
-                    $config = config("upload.drivers.{$driver}");
-
-                    // 生成最终保存路径
-                    $saveName = $this->generateSaveName($filename, $config, null);
-
-                    // 七牛云分片上传完成逻辑
-                    $auth = new \Qiniu\Auth($config['accessKey'], $config['secretKey']);
-                    $uploadMgr = new \Qiniu\Storage\UploadManager();
-
-                    // 获取所有分片的ETag信息
-                    $etags = cache('qiniu_etags_' . $chunkid) ?: [];
-                    if (count($etags) !== $chunkcount) {
-                        throw new \Exception('分片数量不匹配，无法合并');
-                    }
-
-                    // 七牛云没有直接的合并API，需要重命名临时文件
-                    $tempKey = $chunkid; // 临时文件名使用chunkid
-
-                    // 创建BucketManager实例
-                    $bucketMgr = new \Qiniu\Storage\BucketManager($auth);
-
-                    // 重命名临时文件为最终文件名
-                    list($ret, $err) = $bucketMgr->rename(
-                        $config['bucket'],
-                        $tempKey,
-                        $saveName
-                    );
-
-                    if ($err !== null) {
-                        throw new \Exception('文件重命名失败: ' . $err->message());
-                    }
-
-                    // 构建文件URL
-                    $url = $config['domain'] . '/' . $saveName;
-                    $filePath = $saveName;
-
-                    // 如果是私有空间，生成签名URL
-                    if ($config['private'] ?? false) {
-                        $url = $auth->privateDownloadUrl($url, $config['expires'] ?? 3600);
-                    }
-
-                    // 保存到附件表
-                    $attachment = new Attachment();
-                    $attachment->url = $url;
-                    $attachment->path = $filePath;
-                    $attachment->storage = $driver;
-                    $attachment->uploadtime = time();
-                    $attachment->save();
-
-                    // 清理缓存
-                    cache('qiniu_etags_' . $chunkid, null);
-
-                    $this->success(__('Uploaded successful'), '', [
-                        'url' => $url,
-                        'fullurl' => $url
-                    ]);
-
-                } catch (\Exception $e) {
+                    $upload = new Upload();
+                    $attachment = $upload->merge($chunkid, $chunkcount, $filename);
+                    // 统一返回格式
+                    $this->success(__('Uploaded successful'), '', ['url' => $attachment->url, 'fullurl' => cdnurl($attachment->url, true,  $upload->config['driver'])]);
+                } catch (UploadException $e) {
                     $this->error($e->getMessage());
                 }
             } elseif ($method == 'clean') {
+                //删除冗余的分片文件
                 try {
-                    // 清理分片缓存
-                    cache('qiniu_etags_' . $chunkid, null);
-
-                    // 删除七牛云上的临时文件
-                    $auth = new \Qiniu\Auth(config("upload.drivers.qiniu.accessKey"), config("upload.drivers.qiniu.secretKey"));
-                    $bucketMgr = new \Qiniu\Storage\BucketManager($auth);
-                    $bucketMgr->delete(config("upload.drivers.qiniu.bucket"), $chunkid);
-
-                    $this->success();
-                } catch (\Exception $e) {
-                    $this->error('清理失败: ' . $e->getMessage());
-                }
-            } else {
-                // 分片上传
-                $file = $this->request->file('file');
-                try {
-                    // 获取当前存储驱动配置
-                    $driver = config('upload.default');
-                    $config = config("upload.drivers.{$driver}");
-
-                    // 七牛云分片上传
-                    $auth = new \Qiniu\Auth($config['accessKey'], $config['secretKey']);
-                    $uploadMgr = new \Qiniu\Storage\UploadManager();
-
-                    // 获取分片上传凭证
-                    $token = $auth->uploadToken($config['bucket'], $chunkid); // 使用chunkid作为文件名
-
-                    // 上传分片
-                    list($ret, $err) = $uploadMgr->put(
-                        $token,
-                        $chunkid, // 使用chunkid作为文件名
-                        file_get_contents($file->getRealPath())
-                    );
-
-                    if ($err !== null) {
-                        throw new \Exception('分片上传失败: ' . $err->message());
-                    }
-
-                    // 保存分片的ETag信息（虽然七牛云不需要合并，但我们用于验证分片数量）
-                    $etags = cache('qiniu_etags_' . $chunkid) ?: [];
-                    $etags[$chunkindex] = $ret['hash'];
-                    cache('qiniu_etags_' . $chunkid, $etags, 86400);
-
-                    $this->success();
-
-                } catch (\Exception $e) {
+                    $upload = new Upload();
+                    $upload->clean($chunkid);
+                } catch (UploadException $e) {
                     $this->error($e->getMessage());
                 }
+                $this->success();
+            } else {
+                //上传分片文件
+                //默认普通上传文件
+                $file = $this->request->file('file');
+                try {
+                    $upload = new Upload($file);
+                    $upload->chunk($chunkid, $chunkindex, $chunkcount);
+                } catch (UploadException $e) {
+                    $this->error($e->getMessage());
+                }
+                $this->success();
             }
         } else {
-            // ================== 普通文件上传 ==================
+            $attachment = null;
+            //默认普通上传文件
             $file = $this->request->file('file');
             try {
-                // 获取当前存储驱动配置
-                $driver = config('upload.default');
-                $config = config('upload.drivers';;.'.$driver);
-                var_dump($config);die;
-                // 使用七牛云驱动
-                $engine = new \app\common\library\upload\driver\Qiniu($config);
+                $upload = new Upload($file);
+                $attachment = $upload->upload();
+                // 统一返回格式
+                $this->success(__('Uploaded successful'), '', ['url' => $attachment->url, 'fullurl' => cdnurl($attachment->url, true, $upload->config['driver'])]);
 
-                // 生成保存文件名
-                $saveName = $this->generateSaveName($file->getOriginalName(), $config, $file);
-
-
-                // 执行上传
-                $result = $engine->upload($file, $saveName);
-
-                if (!$result) {
-                    throw new \Exception($engine->getError());
-                }
-
-                // 如果是私有空间，生成签名URL
-                $url = $result['url'];
-                if ($config['private'] ?? false) {
-                    $auth = new \Qiniu\Auth($config['accessKey'], $config['secretKey']);
-                    $url = $auth->privateDownloadUrl($url, $config['expires'] ?? 3600);
-                }
-
-                // 保存到附件表
-                $attachment = new Attachment();
-                $attachment->url = $url;
-                $attachment->path = $result['path'];
-                $attachment->storage = $driver;
-                $attachment->uploadtime = time();
-                $attachment->save();
-
-                $this->success(__('Uploaded successful'), '', [
-                    'url' => $url,
-                    'fullurl' => $url
-                ]);
-
-            } catch (\Exception $e) {
+            } catch (UploadException $e) {
                 $this->error($e->getMessage());
             }
+
         }
     }
-
-    /**
-     * 生成保存文件名
-     * @param string $filename 原始文件名
-     * @param array $config 上传配置
-     * @param \think\File|null $file 文件对象（仅普通上传可用）
-     * @return string
-     */
-    private function generateSaveName($filename, $config, $file = null)
-    {
-        // 使用FastAdmin的保存规则
-        $savekey = $config['savekey'] ?? '/{year}{mon}{day}/{random32}{.suffix}';
-
-        // 获取文件扩展名
-        $ext = pathinfo($filename, PATHINFO_EXTENSION);
-
-        // 替换路径中的变量
-        $replace = [
-            '{year}'     => date("Y"),
-            '{mon}'      => date("m"),
-            '{day}'      => date("d"),
-            '{hour}'     => date("H"),
-            '{min}'      => date("i"),
-            '{sec}'      => date("s"),
-            '{random}'   => \think\helper\Str::random(16),
-            '{random32}' => \think\helper\Str::random(32),
-            '{filename}' => substr(pathinfo($filename, PATHINFO_FILENAME), 0, 100),
-            '{suffix}'   => $ext,
-            '{.suffix}'  => $ext ? '.'.$ext : '',
-        ];
-
-        // 处理filemd5 - 仅在普通上传时可用
-        if (strpos($savekey, '{filemd5}') !== false) {
-            if ($file && $file->getRealPath()) {
-                $replace['{filemd5}'] = md5_file($file->getRealPath());
-            } else {
-                // 分片上传使用随机值替代
-                $replace['{filemd5}'] = \think\helper\Str::random(32);
-            }
-        }
-
-        $savename = str_replace(
-            array_keys($replace),
-            array_values($replace),
-            $savekey
-        );
-
-        // 移除可能的斜杠前缀
-        return ltrim($savename, '/');
-    }
-    
 
 
 

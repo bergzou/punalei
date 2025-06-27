@@ -84,16 +84,23 @@ if (!function_exists('cdnurl')) {
      * @param boolean $domain 是否显示域名 或者直接传入域名
      * @return string
      */
-    function cdnurl($url, $domain = false)
+    function cdnurl($url,  $domain = false, $driver = '')
     {
-        $regex = "/^((?:[a-z]+:)?\/\/|data:image\/)(.*)/i";
-        $cdnurl = \think\Config::get('upload.cdnurl');
-        if (is_bool($domain) || stripos($cdnurl, '/') === 0) {
-            $url = preg_match($regex, $url) || ($cdnurl && stripos($url, $cdnurl) === 0) ? $url : $cdnurl . $url;
-        }
-        if ($domain && !preg_match($regex, $url)) {
-            $domain = is_bool($domain) ? request()->domain() : $domain;
-            $url = $domain . $url;
+        switch ($driver) {
+            case 'qiniu':
+//                $url = $url;
+                break;
+            default:
+                $regex = "/^((?:[a-z]+:)?\/\/|data:image\/)(.*)/i";
+                $cdnurl = \think\Config::get('upload.cdnurl');
+                if (is_bool($domain) || stripos($cdnurl, '/') === 0) {
+                    $url = preg_match($regex, $url) || ($cdnurl && stripos($url, $cdnurl) === 0) ? $url : $cdnurl . $url;
+                }
+                if ($domain && !preg_match($regex, $url)) {
+                    $domain = is_bool($domain) ? request()->domain() : $domain;
+                    $url = $domain . $url;
+                }
+                break;
         }
         return $url;
     }

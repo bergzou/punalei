@@ -9,6 +9,7 @@ use FilesystemIterator;
 use think\Config;
 use think\File;
 use think\Hook;
+use app\common\library\storage\{Driver, driver\Local, driver\Qiniu};
 
 /**
  * 文件上传类
@@ -19,7 +20,7 @@ class Upload
 
     protected $chunkDir = null;
 
-    protected $config = [];
+    public $config = [];
 
     protected $error = '';
 
@@ -29,14 +30,70 @@ class Upload
     protected $file = null;
     protected $fileInfo = null;
 
+    protected $driver = null; // 新增：存储驱动实例
+
     public function __construct($file = null)
     {
         $this->config = Config::get('upload');
         $this->chunkDir = RUNTIME_PATH . 'chunks';
+
+        $this->initDriver();
+
         if ($file) {
             $this->setFile($file);
         }
     }
+
+
+    protected function initDriver()
+    {
+        $driverType = $this->config['driver'] ?? 'local';
+
+        switch ($driverType) {
+            case 'qiniu':
+                $this->driver = new Qiniu($this, $this->config['qiniu']);
+                break;
+            default:
+                $this->driver = new Local($this);
+        }
+    }
+
+    public function clean($chunkid)
+    {
+        $this->driver->clean($chunkid);
+    }
+
+    public function merge($chunkid, $chunkcount, $filename)
+    {
+        return $this->driver->merge($chunkid, $chunkcount, $filename);
+    }
+
+    public function chunk($chunkid, $chunkindex, $chunkcount)
+    {
+        return $this->driver->chunk($chunkid, $chunkindex, $chunkcount);
+    }
+
+    public function upload($savekey = null)
+    {
+        return $this->driver->upload($savekey);
+    }
+
+
+    public function getFileInfo()
+    {
+        return $this->fileInfo;
+    }
+
+    public function getFileHash()
+    {
+        return md5_file($this->fileInfo['tmp_name']);
+    }
+
+    public function getMimetypeLimit()
+    {
+        return $this->config['mimetype'];
+    }
+
 
     /**
      * 设置分片目录
@@ -218,7 +275,7 @@ class Upload
      * 清理分片文件
      * @param $chunkid
      */
-    public function clean($chunkid)
+    public function localClean($chunkid)
     {
         if (!preg_match('/^[a-z0-9\-]{36}$/', $chunkid)) {
             throw new UploadException(__('Invalid parameters'));
@@ -240,7 +297,7 @@ class Upload
      * @return attachment|\think\Model
      * @throws UploadException
      */
-    public function merge($chunkid, $chunkcount, $filename)
+    public function localMerge($chunkid, $chunkcount, $filename)
     {
         if (!preg_match('/^[a-z0-9\-]{36}$/', $chunkid)) {
             throw new UploadException(__('Invalid parameters'));
@@ -319,7 +376,7 @@ class Upload
      * 分片上传
      * @throws UploadException
      */
-    public function chunk($chunkid, $chunkindex, $chunkcount, $chunkfilesize = null, $chunkfilename = null, $direct = false)
+    public function localChunk($chunkid, $chunkindex, $chunkcount, $chunkfilesize = null, $chunkfilename = null, $direct = false)
     {
         if ($this->fileInfo['type'] != 'application/octet-stream') {
             throw new UploadException(__('Uploaded file format is limited'));
@@ -356,7 +413,7 @@ class Upload
      * @return \app\common\model\attachment|\think\Model
      * @throws UploadException
      */
-    public function upload($savekey = null)
+    public function localUpload($savekey = null)
     {
         if (empty($this->file)) {
             throw new UploadException(__('No file upload or server upload limit exceeded'));
