@@ -50,7 +50,7 @@ return [
      */
     'thumbstyle' => '',
 
-    'driver' => 'qiniu',  // 新增驱动配置：local/qiniu（后续可扩展aliyun/huawei等）
+    'driver' => 'local',  // 新增驱动配置：local/qiniu（后续可扩展aliyun/huawei等）
 
     'qiniu' => [
         'engine'    => 'qiniu',
