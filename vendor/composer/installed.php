@@ -3,7 +3,7 @@
         'name' => 'fastadminnet/fastadmin',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '605bb0e9acd2994e24b353ddf025ca9686bd4c3b',
+        'reference' => 'b2bfe189a1065d2afadc3def632ae59d2bfacd43',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'fastadminnet/fastadmin' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '605bb0e9acd2994e24b353ddf025ca9686bd4c3b',
+            'reference' => 'b2bfe189a1065d2afadc3def632ae59d2bfacd43',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

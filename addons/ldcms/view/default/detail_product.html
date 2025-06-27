@@ -21,24 +21,11 @@
                 <div class="swiper swiper-container main-swiper">
                     <div class="swiper-wrapper">
 
+                        {ld:pics value="$content['pics']"}
                         <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/7ed740692cf8376b893f0ff2beca3e3e.png" alt="">
+                            <img src="{$item}" alt="">
                         </div>
-                        <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/0e4da8608cf3f261d9e304f25d0b346d.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/42176fe48a91f8561ac34d0b351e659a.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/bc29ffca0a60c551cfaa37b8ff571ed8.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/24a9c671295465749188e955d5e0e8dd.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../../uploads/images/20240102/89e85fa81430bcaab5bf7210f9010b92.png" alt="">
-                        </div>
+                        {/ld:pics}
 
                     </div>
                 </div>
@@ -48,24 +35,11 @@
                     <div class="swiper swiper-container thumbs-swiper">
                         <div class="swiper-wrapper">
 
+                            {ld:pics value="$content['pics']"}
                             <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/7ed740692cf8376b893f0ff2beca3e3e.png" alt="">
+                                <img src="{$item}" alt="">
                             </div>
-                            <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/0e4da8608cf3f261d9e304f25d0b346d.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/42176fe48a91f8561ac34d0b351e659a.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/bc29ffca0a60c551cfaa37b8ff571ed8.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/24a9c671295465749188e955d5e0e8dd.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="../../uploads/images/20240102/89e85fa81430bcaab5bf7210f9010b92.png" alt="">
-                            </div>
+                            {/ld:pics}
 
                         </div>
                     </div>
@@ -73,13 +47,13 @@
 
             </div>
             <div class="col-12 col-md-6">
-                <div class="pro-title">交流电源 ANFH系列</div>
+                <div class="pro-title">{$content.title}</div>
                 <div class="pro-content">
                     <div class="tag-container">
-                        <div class="tag-title">技术参数：</div>
+                        <div class="tag-title">型号：</div>
                         <div class="tag-list">
 
-                            <div class="tag">50/60Hz 300V 500VA-10kVA</div>
+                            <div class="tag">{$content.part}</div>
 
 
                         </div>
@@ -88,21 +62,11 @@
                         <div class="tag-title">应用：</div>
                         <div class="tag-list">
 
-                            <div class="tag">家用电器产线、电机马达、实验室、质检所，交流系统集成等</div>
+                            <div class="tag">{$content.apply}</div>
 
 
                         </div>
                     </div>
-                </div>
-                <div class="pro-btn-container">
-                    <a href="javascript:jump('/lists/228.html?model=交流电源 ANFH系列&describe=50/60Hz 300V 500VA-10kVA&count=1');" class="pro-btn">
-                        <i class="iconfont icon-kuaisubaojia"></i>
-                        获取报价
-                    </a>
-                    <a id="addCart" class="pro-btn consult">
-                        <i class="iconfont icon-jiarugouwuche"></i>
-                        加入询价单
-                    </a>
                 </div>
             </div>
         </div>
@@ -127,18 +91,7 @@
     </div>
 </div>
 
-<!--<div class="pull-down-container">-->
-<!--    <div class="container">-->
-<!--        <a href="javascript:jump('/lists/228.html?model=交流电源 ANFH系列&amp;describe=50/60Hz 300V 500VA-10kVA&amp;count=1');" class="pro-btn">-->
-<!--            获取报价-->
-<!--            <i class="iconfont icon-kuaisubaojia"></i>-->
-<!--        </a>-->
-<!--        <a id="addCarts" class="pro-btn consult">-->
-<!--            加入询价单-->
-<!--            <i class="iconfont icon-jishuzixun"></i>-->
-<!--        </a>-->
-<!--    </div>-->
-<!--</div>-->
+
 
 <!-- 内容 -->
 <div class="track container">
@@ -148,8 +101,8 @@
                 <i class="iconfont icon-chanpinguanli"></i>产品概述
             </div>
             <div class="item-content">
+                {$content.description}
 
-                <p style="font-size: medium; white-space: normal; line-height: 1.5em;"><span style="font-size: 18px;">　　ANFH系列交流电源供应器，采用数字化控制、瞬时波形控制及高频脉宽调制 (SPWM)等技术。具有响应速度快、输出精度高、波形质量优越等优点;电源具备可承受3倍额定电流冲击的能力，负载适应性强。 主要用于家电、电机及产线等应用场合，是满足传统行业基本需求的电源解决方案及设备更新换代的电源替代方案。</span></p><p style="font-size: medium; white-space: normal; line-height: 1.5em;"><span style="font-size: 18px;">　　电源采用19寸标准机箱尺寸设计，体积小，接口丰富，可直接安装于标准机柜内，满足测试、系统集成、产线等多种使用场合的要求;采用4.3寸彩色液晶触摸显示屏+塑壳面板设计，外观显示精美，高端，操作方便直观。</span></p>
             </div>
         </div>
         <div class="track content-item">
@@ -157,8 +110,7 @@
                 <i class="iconfont icon-yunyingguanli"></i>产品特点
             </div>
             <div class="item-content">
-
-                <p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 19寸标准机箱尺寸，体积小，可安装于标准机柜内;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 3倍额定电流冲击承受2S，可直接启动等同于1/3电源功率的冲击型负载;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 输出状态下调节电压及频率;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 具备启动缓升及在线缓升功能，缓升时间可设定;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 测量功能：电压、电流、频率、有功功率;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 电压分档功能：1.0～150.0V、150.1～300.0V自动调整或锁定1.0～300.0V;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 具备线路压降补偿功能;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 具有多组快捷组、掉电记忆功能和快捷键;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 4.3寸彩色触摸显示屏，操作方便直观;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 键锁功能，人性化设计，防止误操作;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; “黑匣子”功能：自动记录报警时的电源状态、报警代码等;</span></p><p style="font-size: medium; white-space: normal;"><span style="line-height: 24px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 18px;">■&nbsp; 标配RS232通讯接口，可选配RS485、GPIB、Ethernet通讯接口或模拟控制方式。</span></p>
+                {$content.characters}
             </div>
         </div>
         <div class="track content-item">
@@ -167,7 +119,7 @@
             </div>
             <div class="item-content">
 
-                <p style="text-align: center;"><img src="../../uploads/images/20240802/4316c3492e36dfc1955e555e4d3702b4.jpg" title="1.jpg" alt=""><img src="../../uploads/images/20240802/19213811c14f508718ffefdd9e1eebc4.jpg" title="2.jpg" alt=""></p>
+                {$content.use}
             </div>
         </div>
         <div class="track content-item">
@@ -176,7 +128,7 @@
             </div>
             <div class="item-content">
 
-                <p style="text-align: center;"><img src="../../uploads/images/20240802/e11240f5937ae0cdc145184762b49ba5.jpg" title="3.jpg" alt=""></p>
+                {$content.spec}
             </div>
         </div>
     </div>
@@ -186,17 +138,50 @@
 <div class="track pro-d-datum">
     <div class="container">
         <div class="pro-d-title">
-            <!--            <a >相关资料</a>-->
-            <a href="../../34.html">相关资料</a>
+            <a href="#">相关资料</a>
         </div>
         <div class="row">
 
+
+            {if condition="$content.handbook != '' "}
             <div class="col-12 col-md-6">
-                <a href="../../uploads/files/20241211/e65485eecae649bda173f140fa1a599d.pdf" download="" class="datum-item">
-                    <span>艾诺仪器综合产品册 - 2025年</span>
+                <a href="{$content.handbook}" download="" class="datum-item">
+                    <span>{$content.title}-用户手册</span>
                     <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
                 </a>
             </div>
+            {else/}
+            {/if}
+
+            {if condition="$content.agreement != '' "}
+            <div class="col-12 col-md-6">
+                <a href="{$content.agreement}" download="" class="datum-item">
+                    <span>{$content.title}-通讯协议</span>
+                    <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
+                </a>
+            </div>
+            {else/}
+            {/if}
+
+            {if condition="$content.drive != '' "}
+            <div class="col-12 col-md-6">
+                <a href="{$content.drive}" download="" class="datum-item">
+                    <span>{$content.title}-应用驱动软件</span>
+                    <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
+                </a>
+            </div>
+            {else/}
+            {/if}
+
+            {if condition="$content.resource != '' "}
+            <div class="col-12 col-md-6">
+                <a href="{$content.resource}" download="" class="datum-item">
+                    <span>{$content.title}-应用产品资料</span>
+                    <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
+                </a>
+            </div>
+            {else/}
+            {/if}
 
 
         </div>
@@ -206,41 +191,25 @@
 <!-- 相关产品 -->
 <div class="track pro-d-related container">
     <div class="pro-d-title">
-        <!--        <a >相关产品</a>-->
         <a href="../../21.html">相关产品</a>
     </div>
     <div class="row product-list">
 
+        {ld:list ext="part"}
         <div class="col-6 col-md-4 col-lg-3">
-            <a href="18.html" class="product-item">
-                <div class="item-title">交流电源 ANFH系列</div>
-                <div class="item-spec">50/60Hz 300V 500VA-10kVA</div>
+            <a href="{$item.url}" class="product-item">
+                <div class="item-title">{$item.title}</div>
+                <div class="item-spec">{$item.part}</div>
                 <div class="item-img-box">
-                    <img class="item-img" src="../../uploads/images/20240102/24a9c671295465749188e955d5e0e8dd.png" alt="">
+                    <img class="item-img" src="{$item.image}" alt="">
                 </div>
                 <div class="item-learn-more">查看更多</div>
             </a>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <a href="../135/20.html" class="product-item">
-                <div class="item-title">交流电源 ANFC 系列</div>
-                <div class="item-spec">50Hz/60Hz 300V 15kw-2000kw</div>
-                <div class="item-img-box">
-                    <img class="item-img" src="../../uploads/images/20240104/c015daae23548eabaaeb12daed0a5923.png" alt="">
-                </div>
-                <div class="item-learn-more">查看更多</div>
-            </a>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3">
-            <a href="../136/21.html" class="product-item">
-                <div class="item-title">交流电源 ANFS系列</div>
-                <div class="item-spec">50Hz/60Hz 300V 15kw-650kw</div>
-                <div class="item-img-box">
-                    <img class="item-img" src="../../uploads/images/20240102/6b4cf3b3f4f45c23f1f08a6689819629.png" alt="">
-                </div>
-                <div class="item-learn-more">查看更多</div>
-            </a>
-        </div>
+        {/ld:list}
+
+
+
 
 
     </div>

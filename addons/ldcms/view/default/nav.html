@@ -1,71 +1,220 @@
-<header class="header opaque">
-    <div id="navBox" class="header-nav menu" data-type="index">
-        <div class="container nav-content">
-            <div class="logobox">
-                <h1 class="logo">
-                    <a href="{:addon_url('ldcms/index/index')}" title="{$ld.sitetitle}">
-                        <img class="logoa" src="{$ld.logo1}" alt="{$ld.sitetitle}">
-                        <img class="logob" src="{$ld.logo2}" alt="{$ld.sitetitle}">{$ld.sitetitle}</a>
-                </h1>
-            </div>
-            <div class="lang">
-                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-language"></i> {$ld.langs[$ld.lg]}
-                    <i class="fa fa-angle-down"></i>
-                </a>
-                <ul class="dropdown-menu" style="width: 90px;min-width: 90px">
-                    {foreach $ld.langsurl as $key=>$item}
-                    <li {if $ld.lg==$key} class="active" {/if}>
-                        <a href="{$item.url}">{$item.title}</a>
-                    </li>
-                    {/foreach}
-                </ul>
-            </div>
+<div class="global-nav-container">
+    <div class="global-nav  animate__fadeInLeftBig">
+        <div class="d-none d-lg-flex container fix nav-pc">
+            <a href="index.htm" class="nav-brand">
+                <img class="img-native" src="{$ld.logo1}">
+            </a>
+
+            <ul class="nav-list">
+
+                {ld:nav pid=0}
+                <!--产品介绍-->
+
+                {if condition="$item.mid == 6"}
+                <li class="nav-li">
+                    <div class="li-a-box">
+                        <a class="li-a" href="{$item.url}">{$item.name}</a><!--一级-->
+                    </div>
+                    <div class="nav-hide-list container">
+                        <div class="product-hide-list-container">
+                            <div class="product-hide-left">
+                                <div class="product-hide-left-container">
+                                    <div class="product-hide-header">
+                                        <text>{$item.name}</text><!--一级-->
+                                        <div class="iconfont icon-icon-arrow-right"></div>
+                                    </div>
+                                    <div class="product-hide-body">
+                                        {ld:nav pid="$item['id']"}
+                                        <div class="body-item">
+                                            <div class="body-item-header">
+                                                <text>{$item.name}</text><!--二级-->
+                                                <div class="iconfont icon-icon-arrow-right"></div>
+                                            </div>
+                                            {ld:nav pid="$item['id']"}
+                                            <div class="body-item-list">
+                                                <div class="list-i" data-id="{$item.id}">
+                                                    <text>{$item.name}</text><!--三级-->
+                                                    <div class="iconfont icon-icon-arrow-right"></div>
+                                                </div>
+                                            </div>
+                                            {/ld:nav}
+                                        </div>
+                                        {/ld:nav}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-hide-right">
 
 
-            <div class="sbtn"><i class="fa fa-search"></i></div>
+                                {ld:levelnav level="3"}
 
-            <ul class="navbar">
-                <li {if $topid===0}class="active" {/if}><a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
+                                <div class="product-hide-right-page" data-id="{$item.pid}">
+                                    <div class="page-item">
+                                        <a href="{$item.url}" class="page-item-title">{$item.name}</a><!--四级-->
+                                        <div class="page-item-content">
+
+                                            {ld:nav pid="$item['id']"}
+                                            <a href="{$item.url}" class="page-item-content-item">{$item.name}                         <text></text>
+                                            </a><!--五级-->
+                                            {/ld:nav}
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                {/ld:levelnav}
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
                 </li>
-                {ld:nav }
-                <li class="{if $topid==$item['id']} active {/if}">
-                    <a href="{$item.url}">{$item.name}</a>
-                    <ul>
-                        {ld:nav pid="$item['id']"}
-                        <li><a href="{$item.url}">{$item.name}</a></li>
-                        {/ld:nav}
-                    </ul>
+
+                {elseif condition="$item.mid == 7"}
+
+                <li class="nav-li">
+                    <div class="li-a-box">
+                        <a class="li-a" href="{$item.url}">{$item.name}</a>
+                        <div class="nav-hide-list">
+                            {ld:nav pid="$item['id']"}
+                            <div class="hide-item">
+                                <a class="hide-item-row" href="{$item.url}">
+                                    {$item.name}                  <i class="iconfont icon-icon-arrow-right"></i>
+                                </a>
+                                <div class="hide-item-extend">
+                                    {ld:nav pid="$item['id']"}
+                                    <a href="{$item.url}" class="extend-item">{$item.name}</a>
+                                    {/ld:nav}
+                                    <div class="arrow"></div>
+                                </div>
+                            </div>
+                            {/ld:nav}
+                        </div>
+
+                    </div>
                 </li>
+
+                {else/}
+
+                <li class="nav-li">
+                    <div class="li-a-box">
+                        <a class="li-a" href="{$item.url}">{$item.name}</a>
+                        <div class="nav-hide-list">
+
+                            {ld:nav pid="$item['id']"}
+                            <div class="hide-item">
+                                <a class="hide-item-row" href="{$item.url}">
+                                    {$item.name}                    <i class="iconfont icon-icon-arrow-right"></i>
+                                </a>
+                            </div>
+                            {/ld:nav}
+                        </div>
+                    </div>
+                </li>
+                {/if}
+
                 {/ld:nav}
             </ul>
         </div>
-    </div>
-    <div class="searchBox">
-        <div class="search-pup">
-            <form method="get" name="searchform" class="dropdown search-form"
-                action="{:addon_url('ldcms/search/index')}">
-                <input class="search-input" name="search" style="color: #333"
-                    placeholder="{:__('Please enter keywords')}" type="text">
-                <button><i class="fa fa-search"></i></button>
-            </form>
-        </div>
-    </div>
-    <div class="moble">
-        <a class="moble-bars" id="btn-bars"><i class="fa fa-bars nav-btn"></i></a>
-        <div class="mlang">
-            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                <i class="fa fa-language"></i>
-                <i class="fa fa-angle-down"></i>
+        <!-- 手机端 -->
+        <div class="d-flex d-lg-none nav-ph">
+            <a href="#" class="nav-brand">
+                <img class="img-native" src="uploads/images/20230523/2989458b611dfb3cf45d6cdac7f9dc68.png">
             </a>
-            <ul class="dropdown-menu" style="width: 90px;min-width: 90px">
-                {foreach $ld.langs as $key=>$lang}
-                <li {if ld_get_home_lang()==$key} class="active" {/if}>
-                    <a href="{:addon_url('ldcms/index/index',['lg'=>$key])}">{$lang}</a>
-                </li>
-                {/foreach}
-            </ul>
+            <div class="iconfont icon-caidan"></div>
+            <div class="nav-list-container">
+                <div class="close-box">
+                    <div class="iconfont icon-RectangleCopy"></div>
+                </div>
+                <ul class="nav-list">
+                    {ld:nav pid=0}
+                    {if condition="$item.mid == 6"}
+                    <li class="nav-li">
+                        <div class="li-row">
+                            <a class="li-a" href="{$item.url}">{$item.name}</a><!--一级-->
+                            <span data-open="false" class="arrows iconfont icon-icon-arrow-right"></span>
+                        </div>
+                        <ul class="next-list">
+
+                            {ld:nav pid="$item['id']"}
+                            <li class="nav-li">
+                                <div class="li-row">
+                                    <div class="li-a">{$item.name}</div><!--二级-->
+                                    <span data-open="false"
+                                          class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                                </div>
+                                <ul class="next-list">
+
+                                    {ld:nav pid="$item['id']"}
+                                    <li class="nav-li">
+                                        <div class="li-row">
+                                            <div class="li-a">{$item.name}</div><!--三级-->
+                                            <span data-open="false"
+                                                  class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                                        </div>
+                                        <ul class="next-list">
+
+                                            {ld:nav pid="$item['id']"}
+                                            <li class="nav-li">
+                                                <div class="li-row">
+                                                    <a href="{$item.url}" class="li-a">{$item.name}</a><!--四级-->
+                                                    <span data-open="false"
+                                                          class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                                                </div>
+                                                <ul class="next-list">
+
+                                                    {ld:nav pid="$item['id']"}
+                                                    <li class="nav-li">
+                                                        <div class="li-row">
+                                                            <a class="li-a" href="{$item.url}">{$item.name}<span></span></a><!--五级-->
+                                                            <span data-open="false"
+                                                                  class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                                                        </div>
+                                                    </li>
+                                                    {/ld:nav}
+
+                                                </ul>
+                                            </li>
+                                            {/ld:nav}
+
+                                        </ul>
+                                    </li>
+
+                                    {/ld:nav}
+
+                                </ul>
+                            </li>
+                            {/ld:nav}
+
+                        </ul>
+                    </li>
+                    {else/}
+                    <li class="nav-li">
+                        <div class="li-row">
+                            <a class="li-a" href="{$item.url}">{$item.name}</a>
+                            <span data-open="false" class="arrows iconfont icon-icon-arrow-right"></span>
+                        </div>
+                        <ul class="next-list">
+                            {ld:nav pid="$item['id']"}
+                            <li class="nav-li">
+                                <div class="li-row">
+                                    <a class="li-a" href="{$item.url}">{$item.name}</a>
+                                    <span data-open="false"
+                                          class="arrows iconfont icon-icon-arrow-right d-block d-lg-none"></span>
+                                </div>
+                            </li>
+                            {/ld:nav}
+                        </ul>
+                    </li>
+                    {/if}
+                    {/ld:nav}
+                </ul>
+            </div>
         </div>
     </div>
-
-</header>
+</div>

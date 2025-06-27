@@ -35,6 +35,7 @@ class Base extends Backend
 
     protected function addPost()
     {
+
         $params = $this->request->post('row/a');
         if (empty($params)) {
             $this->error(__('Parameter %s can not be empty', ''));
@@ -56,8 +57,18 @@ class Base extends Backend
             $result = $this->model->allowField(true)->save($params);
             Db::commit();
         } catch (ValidateException | PDOException | Exception $e) {
-            Db::rollback();
-            $this->error($e->getMessage());
+
+
+            // 获取当前数据库连接
+            $connection = Db::getConnection();
+
+            // 判断事务是否活跃
+            if ($connection->getPdo()->inTransaction()) {
+                Db::rollback();
+                $this->error($e->getMessage());
+            }
+
+
         }
         if ($result === false) {
             $this->error(__('No rows were inserted'));
@@ -95,8 +106,14 @@ class Base extends Backend
             $result = $row->allowField(true)->save($params);
             Db::commit();
         } catch (ValidateException | PDOException | Exception $e) {
-            Db::rollback();
-            $this->error($e->getMessage());
+            // 获取当前数据库连接
+            $connection = Db::getConnection();
+
+            // 判断事务是否活跃
+            if ($connection->getPdo()->inTransaction()) {
+                Db::rollback();
+                $this->error($e->getMessage());
+            }
         }
         if (false === $result) {
             $this->error(__('No rows were updated'));

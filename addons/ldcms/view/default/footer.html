@@ -35,28 +35,28 @@
 
                 <div class="main-item main-contact">
                     <div class="link-title">联系我们</div>
-                    <div class="item-link">固话：400-0532-991</div>
-                    <div class="item-link">QQ： 2770184609</div>
-                    <div class="item-link">手机：18560798561</div>
-                    <div class="item-link">邮箱：sale@ainuo.com</div>
-                    <div class="item-link">地址：山东省济南市出口加工区港兴三路1069号</div>
+                    <div class="item-link">固话：{$ld.tel}</div>
+                    <div class="item-link">QQ： {$ld.qq}</div>
+                    <div class="item-link">手机：{$ld.phone}</div>
+                    <div class="item-link">邮箱：{$ld.email}</div>
+                    <div class="item-link">地址：{$ld.address}</div>
                 </div>
 
                 <div style="display: flex;">
                     <div class="main-item main-code">
-                        <img src="uploads/images/20241207/98dcd435d28ba711a951d895e2f8292b.jpg" class="code-img"
+                        <img src="{$ld.wechat}" class="code-img"
                              alt="">
-                        <div class="item-link">艾诺官方公众号</div>
+                        <div class="item-link">普钠雷公众号</div>
                     </div>
 
                     <div class="main-item main-shop">
-                        <a href="https://shop438928506.taobao.com/" target="_blank">
+                        <a href="{$ld.taobao_link1}" target="_blank">
                             <img src="uploads/images/20240807/f110511c70ec9f25edffe37839095133.png" alt="">
                         </a>
-                        <a href="https://mall.jd.com/index-12597039.html" target="_blank">
+                        <a href="{$ld.jd_link1}" target="_blank">
                             <img src="uploads/images/20240807/beb611739b82cc5c15f87f51e3dc8fe6.png" alt="">
                         </a>
-                        <a href="https://shop994l255121s64.1688.com/" target="_blank">
+                        <a href="{$ld.albaba_link1}" target="_blank">
                             <img src="uploads/images/20240807/7557ec8009efe4cefb2488e008f62c54.png" alt="">
                         </a>
                         <p>官方商城入口</p>
@@ -68,8 +68,8 @@
         <div class="footer-copyright">
             <div class="container fix">
                 <div class="copy">
-                    版权所有：艾诺仪器 · 技术支持：<a href="https://www.sdyunyou.cn" target="_blank">云优网络</a>
-                    &nbsp;&nbsp; 备案号:<a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2023004393号</a>
+                    版权所有： {$ld.copyright} · 技术支持：<a href="https://www.sdyunyou.cn" target="_blank">云优网络</a>
+                    &nbsp;&nbsp; 备案号:<a href="https://beian.miit.gov.cn/" target="_blank">{$ld.icp}</a>
                 </div>
             </div>
         </div>

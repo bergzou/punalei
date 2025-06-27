@@ -11,6 +11,7 @@ return [
         ],
         'config_init' => [
             'ldcms',
+            'umeditor',
         ],
         'reset_route' => [
             'ldcms',
