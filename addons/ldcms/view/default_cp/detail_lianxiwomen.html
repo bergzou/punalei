@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{include file="head" /}
+<body>
+<!-- 导航 -->
+{include file="nav" /}
+
+
+
+<!-- 面包屑 -->
+
+<div class="track global-crumbs">
+    <div class="container">
+        <a class="crumb" href="index.htm"><span class="iconfont icon-shouye"></span>首页</a> &nbsp; &gt; &nbsp; <a class="crumb" href="26.html">关于艾诺</a>  </div>
+</div>
+
+
+
+
+<div class="track global-banner d-none d-md-block">
+    <img src="http://qiniu.zhishiqiu.com/uploads/20250701/90ea734aca78d0f74d815099112053ea.jpg" alt="">
+</div>
+<!-- 手机 -->
+<div class="track global-banner d-block d-md-none">
+    <img src="http://qiniu.zhishiqiu.com/uploads/20250701/90ea734aca78d0f74d815099112053ea.jpg" alt="">
+</div>
+
+
+
+
+
+<!--内容-->
+
+<div class="track contact-container container">
+    <div class="contact-body">
+        <div class="contact-body-text">
+            <div class="contact-body-text-title">艾诺仪器</div>
+            <div class="contact-body-text-content">
+                <a href="tel:400-0532-991" class="content-item"><i class="iconfont icon-guhua"></i>固话：400-0532-991</a>
+                <div class="content-item"><i class="iconfont icon-qq"></i>QQ： 2770184609</div>
+                <a href="tel:18560798561" class="content-item"><i class="iconfont icon-shumashouji"></i>手机：18560798561</a>
+                <a href="mailto:sale@ainuo.com" class="content-item"><i class="iconfont icon-youjianyouxiang"></i>邮箱：sale@ainuo.com</a>
+                <div class="content-item"><i class="iconfont icon-dizhi"></i>地址：山东省济南市出口加工区港兴三路1069号</div>
+            </div>
+        </div>
+        <div class="contact-body-code">
+            <img src="uploads/images/20241207/98dcd435d28ba711a951d895e2f8292b.jpg" alt="">
+            <div class="intro">艾诺官方公众号</div>
+        </div>
+    </div>
+    <div class="contact-header" style="padding-top: 60px;">
+        <div class="header-title">我们在这里等待您的到来</div>
+        <div class="header-back"></div>
+        <div class="header-address">山东省济南市出口加工区港兴三路1069号</div>
+    </div>
+    <div id="map" class="contact-map"></div>
+</div>
+
+
+<!-- 办事处 -->
+<div class="track office-container">
+    <div class="container">
+        <div class="office-title">全国办事处</div>
+        <div class="row">
+
+            <div class="col-12 col-sm-6">
+                <div class="office-item">
+                    <div class="item-title">顺德办事处</div>
+                    <div class="item-address">地址：广东省佛山市顺德区振华中路98号</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="office-item">
+                    <div class="item-title">深圳办事处</div>
+                    <div class="item-address">地址：广东省深圳市宝安区银田路43号</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="office-item">
+                    <div class="item-title">合肥办事处</div>
+                    <div class="item-address">地址：安徽省合肥市政务区石台南路安粮云水居</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="office-item">
+                    <div class="item-title">苏州办事处</div>
+                    <div class="item-address">地址：江苏省苏州市姑苏区吴门桥街道吴中西路天辰花园</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="office-item">
+                    <div class="item-title">宁波办事处</div>
+                    <div class="item-address">地址：浙江省宁波市海曙区尹江路185弄</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- 留言 -->
+<form class="track leave-word-container container">
+    <div class="leave-title">在线留言</div>
+    <div class="row">
+        <div class="leave-col col-12 col-md-6">
+            <div class="label">姓名<span>*</span></div>
+            <div class="input-box"><input name="name" required="" type="text"></div>
+        </div>
+        <div class="leave-col col-12 col-md-6">
+            <div class="label">电话<span>*</span></div>
+            <div class="input-box"><input name="mobile" required="" type="text"></div>
+        </div>
+        <div class="leave-col col-12 col-md-6">
+            <div class="label">邮箱</div>
+            <div class="input-box"><input name="mailbox" type="text"></div>
+        </div>
+        <div class="leave-col col-12 col-md-6">
+            <div class="label">公司<span>*</span></div>
+            <div class="input-box"><input name="address" required="" type="text"></div>
+        </div>
+        <div class="leave-col col-12">
+            <div class="label">备注</div>
+            <div class="input-box"><textarea name="remarks"></textarea></div>
+        </div>
+    </div>
+    <button id="submit" type="button" class="leave-submit">提交留言</button>
+</form>
+
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=5wkmvfQmFLTPZwKoRZCsb9ocHhitcSBb"></script>
+<script>
+    $(function () {
+        const coord = {
+            lng: 117.228379,
+            lat: 36.662485
+        }
+
+        var map = new BMap.Map("map", {
+            coordsType: 5,
+            enableBizAuthLogo: false
+        })
+        var point = new BMap.Point(coord.lng, coord.lat)  // 创建点坐标
+        map.centerAndZoom(point, 16)        // 初始化地图，设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true)     //开启鼠标滚轮缩放
+
+        // 定义自定义覆盖物的构造函数
+        function SquareOverlay(center){
+            this._center = center;
+        }
+        // 继承API的BMap.Overlay
+        SquareOverlay.prototype = new BMap.Overlay();
+
+        // 实现初始化方法
+        SquareOverlay.prototype.initialize = function(map){
+            // 保存map对象实例
+            this._map = map;
+
+            var $tag = $('<div class="map-sign-box" style="position: absolute;"><img src="/uploads/images/20240207/32e592e3da34f5d39b8b2d156dee94e4.png" alt=""></div>')
+            var tag = $tag[0];
+
+            // 将dom添加到覆盖物容器中
+            map.getPanes().markerPane.appendChild(tag);
+            // 保存dom实例
+            this._tag = tag;
+            // 需要将 dom 作为方法的返回值，当调用该覆盖物的show、
+            // hide方法，或者对覆盖物进行移除时，API都将操作此元素。
+            return tag;
+        }
+
+
+        // 实现绘制方法
+        SquareOverlay.prototype.draw = function(){
+            // 根据地理坐标转换为像素坐标，并设置给容器
+            var w = $(this._tag).width();
+            var h = $(this._tag).height();
+            var position = this._map.pointToOverlayPixel(this._center);
+            this._tag.style.left = position.x - w / 2 + "px";
+            this._tag.style.top = position.y - h / 2 + "px";
+        }
+
+        var mySquare = new SquareOverlay(coord);
+        map.addOverlay(mySquare);
+    })
+</script>
+
+
+<div class="section fp-auto-height">
+    {include file="footer" /}
+</div>
+</body>
+</html>

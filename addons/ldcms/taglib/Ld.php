@@ -60,6 +60,8 @@ class Ld extends TagLib
     {
 
         $level   = isset($tag['level']) ? $tag['level'] : 0;
+        $mid   = isset($tag['mid']) ? $tag['mid'] : 0;
+        $cid   = isset($tag['cid']) ? $tag['cid'] : 0;
         $limit = isset($tag['limit']) ? $tag['limit'] : '';
         $empty = isset($tag['empty']) ? $tag['empty'] : '';
         $key   = !empty($tag['key']) ? $tag['key'] : 'i';
@@ -67,7 +69,7 @@ class Ld extends TagLib
         $alias = isset($tag['alias']) ? $tag['alias'] : 'item';
         $var   = Random::alnum(10);
         $parse = '<?php ';
-        $parse .= '$__' . $var . '__ =\addons\ldcms\model\Category::instance()->getHomeLevelNav(' . $level . ',"' . $limit . '");';
+        $parse .= '$__' . $var . '__ =\addons\ldcms\model\Category::instance()->getHomeLevelNav(' . $level . ',' . $mid . ',' . $cid . ',"' . $limit . '");';
         $parse .= '?>';
         $parse .= '{volist name="$__' . $var . '__" id="' . $alias . '" empty="' . $empty . '" key="' . $key . '" mod="' . $mod . '"}';
         $parse .= $content;

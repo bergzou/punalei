@@ -5,6 +5,7 @@ namespace addons\ldcms\model;
 use addons\ldcms\model\common\Frontend;
 use think\Db;
 use think\Exception;
+use think\Log;
 use traits\model\SoftDelete;
 
 class Document extends Frontend
@@ -154,13 +155,14 @@ class Document extends Frontend
                 unset($ext[$key]);
             }
         }
-        if(!$mid){  // 未指定 模型的情况下则通过分类获取 mid
-            $categoryModel = Category::instance();
-            $category = $categoryModel->getHomeCategory($cid);
-            $mid=$category['mid'];
-            /*获取子类*/
-            $cid = $categoryModel->getChildrenIds($cid, true);
-        }
+
+        $categoryModel = Category::instance();
+        $category = $categoryModel->getHomeCategory($cid);
+        $mid=$category['mid'];
+        /*获取子类*/
+        $cid = $categoryModel->getChildrenIds($cid, true);
+
+
 
         if (!empty($category) || !empty($mid)) {
             $models = Models::instance()->getHomeList();

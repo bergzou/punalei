@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 {include file="head" /}
-
 <body>
+<!-- 导航 -->
 {include file="nav" /}
-    
 
-<!-- 面包屑 -->
-{include file="position" /}
+<div class="track global-crumbs">
+    <div class="container">
+        <a class="crumb" href="/"><span class="iconfont icon-shouye"></span>首页</a>
+        &nbsp; &gt; &nbsp;
+        <a class="crumb" href="{$content.url}">{$content.title}</a>
+    </div>
+</div>
 
-
-<!--内容-->
 <div class="track prod-d-container">
-
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -25,7 +26,7 @@
                             <img src="{$item}" alt="">
                         </div>
                         {/ld:pics}
-                        
+
                     </div>
                 </div>
                 <div class="thumbs-swiper-container">
@@ -39,7 +40,7 @@
                                 <img src="{$item}" alt="">
                             </div>
                             {/ld:pics}
-                            
+
                         </div>
                     </div>
                 </div>
@@ -67,7 +68,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -91,8 +91,6 @@
     </div>
 </div>
 
-
-
 <!-- 内容 -->
 <div class="track container">
     <div class="pro-d-content">
@@ -102,6 +100,7 @@
             </div>
             <div class="item-content">
                 {$content.description}
+
             </div>
         </div>
         <div class="track content-item">
@@ -117,6 +116,7 @@
                 <i class="iconfont icon-yingyong"></i>产品应用
             </div>
             <div class="item-content">
+
                 {$content.use}
             </div>
         </div>
@@ -125,6 +125,7 @@
                 <i class="iconfont icon-jishufuwu"></i>技术规格
             </div>
             <div class="item-content">
+
                 {$content.spec}
             </div>
         </div>
@@ -135,9 +136,11 @@
 <div class="track pro-d-datum">
     <div class="container">
         <div class="pro-d-title">
-            <a href="../../34.html">相关资料</a>
+            <a href="#">相关资料</a>
         </div>
         <div class="row">
+
+
             {if condition="$content.handbook != '' "}
             <div class="col-12 col-md-6">
                 <a href="{$content.handbook}" download="" class="datum-item">
@@ -154,6 +157,7 @@
                     <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
                 </a>
             </div>
+            {else/}
             {/if}
 
             {if condition="$content.drive != '' "}
@@ -163,6 +167,7 @@
                     <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
                 </a>
             </div>
+            {else/}
             {/if}
 
             {if condition="$content.resource != '' "}
@@ -172,20 +177,23 @@
                     <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
                 </a>
             </div>
+            {else/}
             {/if}
-            
+
+
         </div>
     </div>
 </div>
 
+
 <!-- 相关产品 -->
 <div class="track pro-d-related container">
     <div class="pro-d-title">
-        <a href="../dansanxiangzhinenganguizonghefenxiyi">相关产品</a>
+        <a href="../../21.html">相关产品</a>
     </div>
     <div class="row product-list">
 
-        {ld:list ext="part" mid="6" cid="$category['pid']"}
+        {ld:list ext="part" mid="6"}
         <div class="col-6 col-md-4 col-lg-3">
             <a href="{$item.url}" class="product-item">
                 <div class="item-title">{$item.title}</div>
@@ -197,14 +205,121 @@
             </a>
         </div>
         {/ld:list}
-                                                
-            
+
     </div>
 </div>
 
-
 <script>
     $(function () {
+
+        $('#addCart').click(function (event) {
+            // 生成小球并添加到body
+            const ball = $('<div class="ball"></div>')
+            ball.css({
+                left: event.clientX - 25,
+                top: event.clientY - 25,
+            })
+            $(document.body).append(ball)
+
+            // 获取购物车的位置
+            const cartRect = document.querySelector('#cart').getBoundingClientRect()
+
+            // 小球移动到购物车的位置
+            ball.css({
+                left: cartRect.left - 5,
+                top: cartRect.top - 5,
+                height: '14px',
+                width: '14px',
+                opacity: 1
+            })
+
+            // 小球移动到购物车的位置后，移除小球
+            ball.on('transitionend', function (event) {
+                if (event.originalEvent.propertyName === 'opacity') {
+                    isadd()
+                    ball.remove()
+                }
+            })
+
+            let str = window.localStorage.getItem('goodsInfo');
+            if (str !== null) {
+                let arr = JSON.parse(str);
+                let item = arr.find(item => item.model === '交流电源 ANFH系列')
+                if (!!item) {
+                    item.count++
+                } else {
+                    arr.push({
+                        model: '交流电源 ANFH系列',
+                        describe: '50/60Hz 300V 500VA-10kVA',
+                        count: 1
+                    })
+                }
+                window.localStorage.setItem('goodsInfo', JSON.stringify(arr))
+            } else {
+                let arr = []
+                arr.push({
+                    model: '交流电源 ANFH系列',
+                    describe: '50/60Hz 300V 500VA-10kVA',
+                    count: 1
+                })
+                window.localStorage.setItem('goodsInfo', JSON.stringify(arr))
+            }
+        })
+
+        $('#addCarts').click(function (event) {
+            // 生成小球并添加到body
+            const ball = $('<div class="ball"></div>')
+            ball.css({
+                left: event.clientX - 25,
+                top: event.clientY - 25,
+            })
+            $(document.body).append(ball)
+
+            // 获取购物车的位置
+            const cartRect = document.querySelector('#cart').getBoundingClientRect()
+
+            // 小球移动到购物车的位置
+            ball.css({
+                left: cartRect.left - 5,
+                top: cartRect.top - 5,
+                height: '14px',
+                width: '14px',
+                opacity: 1
+            })
+
+            // 小球移动到购物车的位置后，移除小球
+            ball.on('transitionend', function (event) {
+                if (event.originalEvent.propertyName === 'opacity') {
+                    isadd()
+                    ball.remove()
+                }
+            })
+
+            let str = window.localStorage.getItem('goodsInfo');
+            if (str !== null) {
+                let arr = JSON.parse(str);
+                let item = arr.find(item => item.model === '交流电源 ANFH系列')
+                if (!!item) {
+                    item.count++
+                } else {
+                    arr.push({
+                        model: '交流电源 ANFH系列',
+                        describe: '50/60Hz 300V 500VA-10kVA',
+                        count: 1
+                    })
+                }
+                window.localStorage.setItem('goodsInfo', JSON.stringify(arr))
+            } else {
+                let arr = []
+                arr.push({
+                    model: '交流电源 ANFH系列',
+                    describe: '50/60Hz 300V 500VA-10kVA',
+                    count: 1
+                })
+                window.localStorage.setItem('goodsInfo', JSON.stringify(arr))
+            }
+        })
+
         var thumbsSwiper = new Swiper('.thumbs-swiper', {
             // loop: true,
             on:{
@@ -231,6 +346,7 @@
                 }
             }
         })
+
         var mainSwiper = new Swiper('.main-swiper', {
             // loop: true,
             spaceBetween: 30,
@@ -264,16 +380,31 @@
             }
         })
     })
+
     function jump(url){
         window.location.href=url;
     }
-
+    function isElementFullyObscured(element) {
+        const elementRect = element.getBoundingClientRect();
+        return elementRect.top < 0 ;
+    }
+    const myElement = $('.prod-d-container .row .pro-btn-container');
+    if (isElementFullyObscured(myElement[0])) {
+        $('.pro-btn-add-content').show();
+    } else {
+        $('.pro-btn-add-content').hide();
+    }
+    $(window).on('scroll', function() {
+        const myElement = $('.prod-d-container .row .pro-btn-container');
+        if (isElementFullyObscured(myElement[0])) {
+            $('.pro-btn-add-content').show();
+        } else {
+            $('.pro-btn-add-content').hide();
+        }
+    });
 </script>
 
-<!-- footer -->
 {include file="footer" /}
-
-{include file="full_page" /}
 
 </body>
 </html>

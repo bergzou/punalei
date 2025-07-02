@@ -1,0 +1,10 @@
+<!-- 面包屑 -->
+<div class="track global-crumbs">
+    <div class="container">
+        <a class="crumb" href="/"><span class="iconfont icon-shouye"></span>首页</a>
+        {ld:position cid="$category['id']"}
+        <span class="separator">&gt;</span>
+        <a class="crumb" href="{$item.url}">{$item.name}</a>
+        {/ld:position}
+    </div>
+</div>

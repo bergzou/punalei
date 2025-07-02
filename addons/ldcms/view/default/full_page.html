@@ -1,0 +1,245 @@
+<script>
+    function jump(url){
+        window.location.href=url;
+    }
+    $(function () {
+
+        $('#fullpage').fullpage({
+
+            responsiveWidth: 992,   // 992 以下屏幕不全屏滚动
+            onLeave: function(from, to, direction){
+                if (window.innerWidth > 576) {
+                    if (to === 2) {
+                        $('.index-product .product-controller').addClass('animate__fadeInLeftBig')
+                        $('.index-product .product-swiper-container').addClass('animate__fadeInRightBig')
+                    } else {
+                        $('.index-product .product-controller').removeClass('animate__fadeInLeftBig')
+                        $('.index-product .product-swiper-container').removeClass('animate__fadeInRightBig')
+                    }
+
+                    if (to === 3) {
+                        $('.index-plan .plan-header').addClass('animate__fadeInLeftBig')
+                        $('.index-plan .plan-swiper-container').addClass('animate__fadeInRightBig')
+                    } else {
+                        $('.index-plan .plan-header').removeClass('animate__fadeInLeftBig')
+                        $('.index-plan .plan-swiper-container').removeClass('animate__fadeInRightBig')
+                    }
+
+                    if (to === 4) {
+                        showNumber()
+                        $('.index-about .text-col').addClass('animate__fadeInLeftBig')
+                        $('.index-about .img-col').addClass('animate__fadeInRightBig')
+                    } else {
+                        $('.index-about .text-col').removeClass('animate__fadeInLeftBig')
+                        $('.index-about .img-col').removeClass('animate__fadeInRightBig')
+                    }
+
+                    if (to === 5) {
+                        $('.index-news .index-title').addClass('animate__fadeInLeftBig')
+                        $('.index-news .news-list').addClass('animate__fadeInRightBig')
+                    } else {
+                        $('.index-news .index-title').removeClass('animate__fadeInLeftBig')
+                        $('.index-news .news-list').removeClass('animate__fadeInRightBig')
+                    }
+                }else {
+                    if (to == 4) {
+                        showNumber()
+                    }
+                }
+
+
+                if (to === 6) {
+                    $('.home-bounce .arrow').addClass('back')
+                } else {
+                    $('.home-bounce .arrow').removeClass('back')
+                }
+            },
+        })
+
+        $(window).scroll(function (e) {
+            if ($(window).width() < 992 && $(window).scrollTop() > 50) {
+                $('.global-nav').addClass('top')
+            } else {
+                $('.global-nav').removeClass('top')
+            }
+        })
+
+
+
+        // 轮播图
+        var homeBanner = new Swiper('.index-banner', {
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+                el: '.index-banner-pagination',
+                clickable: true
+            },
+        })
+
+        hideVideo()
+        function hideVideo() {
+            var width = window.innerWidth
+            if (width < 768) {
+                homeBanner.destroy()
+                console.log(11)
+                var slides = $('.index-banner .swiper-slide')
+                slides.each(function (_, slide) {
+                    if ($(slide).attr('v') === 'true') {
+                        $(slide).remove()
+                    }
+                })
+                homeBanner = new Swiper('.index-banner', {
+                    autoplay: {
+                        delay: 6000,
+                        disableOnInteraction: false,
+                    },
+                    loop: true,
+                    pagination: {
+                        el: '.index-banner-pagination',
+                        clickable: true
+                    },
+                })
+
+            }
+        }
+
+
+
+        const productSwiper = new Swiper('.product-swiper', {
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+            spaceBetween: 50,
+            on: {
+                slideChangeTransitionStart: function() {
+                    const activeIndex = this.activeIndex
+                    $(".product-controller .controller-item").each(function (index) {
+                        if (index === activeIndex) {
+                            $(this).addClass('active').siblings().removeClass('active')
+                        }
+                    })
+                }
+            }
+        })
+        //解决鼠标悬浮切换效果
+        $(".product-controller .controller-item").mouseenter(function () {
+            $(this).addClass('active').siblings().removeClass('active')
+            productSwiper.slideTo($(this).index(), 300, false);
+        })
+
+
+
+
+        // 方案
+        let timeout = null
+        let marginLeft = 0
+
+        if ($(window).width() > 576) {
+            setPlanSwiperPadding()
+        } else {
+            $('.plan-swiper-container').addClass('container home')
+            $('.plan-swiper-container').css({ 'padding-left': 0 })
+        }
+        $(window).resize(function () {
+            if ($(window).width() > 576) {
+                throttling()
+            } else {
+                $('.plan-swiper-container').css({ 'padding-left': 0 })
+            }
+        })
+
+        function throttling(){
+            clearTimeout(timeout)
+            timeout = setTimeout(function () {
+                setPlanSwiperPadding()
+            }, 200)
+        }
+        function setPlanSwiperPadding () {
+            marginLeft = ($('.plan-header').outerWidth(true) - $('.plan-header').outerWidth()) / 2
+            $('.plan-swiper-container').css({ 'padding-left': marginLeft })
+        }
+
+        new Swiper('.plan-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 'auto',
+            loopedSlides: 5,
+            spaceBetween : 90,
+            navigation: {
+                nextEl: '.plan-swiper-button-next',
+            },
+            breakpoints: {
+                1920: {
+                    spaceBetween : 90,
+                },
+                768: {
+                    spaceBetween : 60,
+                },
+                576: {
+                    spaceBetween : 30,
+                }
+            }
+        })
+
+        // 关于
+        const counts = []
+        $('.about-data').each(function(_, item) {
+            counts.push(new CountUp(item.id, item.dataset.value, {
+                useEasing: true,  // 过渡动画效果，默认ture
+                useGrouping: false,  // 千分位效果，例：1000->1,000。默认true
+                separator: ',',   // 使用千分位时分割符号
+                decimal: '.',   // 小数位分割符号
+                prefix: '',    // 前置符号
+                suffix: ''    // 后置符号，可汉字
+            }))
+        })
+        function showNumber () {
+            counts.forEach(function (item) {
+                item.start()
+            })
+        }
+
+
+        new Swiper('.news-list', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            breakpoints: {
+                1920: {
+                    spaceBetween: 25,
+                    slidesPerView: 3,
+                },
+                992: {
+                    spaceBetween: 20,
+                    slidesPerView: 3,
+                },
+                768: {
+                    spaceBetween: 20,
+                    slidesPerView: 1,
+                }
+            }
+        })
+    })
+    $(function(){
+        let token = localStorage.getItem('token');
+        if(!token){
+            $('.nav-out').addClass('log-out-none');
+            $('.nav-login').removeClass('log-out-none')
+        }else{
+            $('.nav-login').addClass('log-out-none');
+            $('.nav-out').removeClass('log-out-none')
+        }
+        $('.log-out,.log-out-one').click(function(){
+            localStorage.removeItem('token');
+        })
+    })
+</script>

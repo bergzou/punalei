@@ -78,26 +78,34 @@ class Category extends Frontend
         if (!isset($categorys[$id])) {
             return [];
         }
-        /*取到当前分类信息*/
+
+        // 新增：构建以pid为键的子节点索引数组
+        $childrenMap = [];
+        foreach ($categorys as $v) {
+            $childrenMap[$v['pid']][] = $v; // 只需在循环外增加这1行
+        }
+
         $current = $categorys[$id];
-        $function = function ($data, $id) use (&$function, $current) {
+        $function = function ($id) use (&$function, $childrenMap, $current) { // 修改函数签名
             $arr = [];
-            foreach ($data as $v) {
-                /*剔除不是同一个模型的子类*/
-                if ($v['pid'] == $id && $v['mid'] == $current['mid']) {
+            // 直接通过索引获取子节点，无需遍历全表
+            $children = $childrenMap[$id] ?? [];
+            foreach ($children as $v) {
+                // 保留mid过滤条件
+                if ($v['mid'] == $current['mid']) {
                     $arr[] = $v['id'];
-                    $arr = array_merge($function($data, $v['id']), $arr);
+                    $arr = array_merge($arr, $function($v['id'])); // 递归子节点
                 }
             }
             return $arr;
         };
-        $returnData = $function($categorys, $id);
+
+        $returnData = $function($id); // 调整参数
         if ($withself) {
             array_unshift($returnData, $id);
         }
         return $returnData;
     }
-
 
     /**
      * 获取首页栏目数据
@@ -191,19 +199,20 @@ class Category extends Frontend
         return $result;
     }
 
-    public function getHomeLevelNav($level = 0,$limit='')
+    public function getHomeLevelNav($level = 0, $mid = 0, $cid = 0, $limit='')
     {
         $data = $this->getHomeCategoryData();
         if (empty($data)) {
             return [];
         }
-
+        $cids = $this->getChildrenIds($cid);
         $result = [];
         foreach ($data['data'] as $value) {
             if (!$value['is_nav']) continue;
-            if ($value['level'] == $level){
-                $result[] = $value;
-            }
+            if ($mid && $value['mid'] != $mid) continue;
+            if ($level && $value['level']!= $level) continue;
+            if ($cid && !in_array($value['id'], $cids)) continue;
+            $result[] = $value;
         }
 
 

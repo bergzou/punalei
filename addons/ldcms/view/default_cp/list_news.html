@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file="head" /}
+<body>
+<!-- 导航 -->
+{include file="nav" /}
+
+
+<!-- 电脑 -->
+<div class="track global-banner d-none d-md-block">
+    <img src="{$content.image}" alt="">
+</div>
+<!-- 手机 -->
+<div class="track global-banner d-block d-md-none">
+    <img src="{$content.big_image}" alt="">
+</div>
+
+<!-- 面包屑 -->
+
+<div class="track global-crumbs">
+    <div class="container">
+        <a class="crumb" href="index.htm"><span class="iconfont icon-shouye"></span>首页</a> &nbsp; &gt; &nbsp; <a class="crumb" href="32.html">艾诺资讯</a><span class="separator">&gt;</span><a class="crumb" href="32.html">企业新闻</a>  </div>
+</div>
+
+
+<!-- 列表 -->
+<div class="track total-list-container container">
+    <div class="row paging">
+        {ld:list ext="intro,time" mid="2" cid="$content.pid"}
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="{$item.url}" class="news-list-item">
+                <div class="item-img-box">
+                    <img class="item-img" src="{$item.image}" alt="">
+                </div>
+                <div class="text">
+                    <div class="title">{$item.title}</div>
+                    <div class="intro">{$item.intro}～</div>
+                    <div class="time arial">{$item.time}</div>
+                </div>
+            </a>
+        </div>
+        {/ld:list}
+    </div>
+
+    <!-- 分页1 -->
+    <div class="global-paging"><a class="item" class="disabled"><i class="iconfont icon-arrow-left-bold"></i></a> <a class="item active">1</a><a class="item" href="list/32_2.html">2</a><a class="item" href="list/32_3.html">3</a><a class="item" href="list/32_4.html">4</a><a class="item" href="list/32_5.html">5</a> <a class="item" href="list/32_2.html"><i class="iconfont icon-arrow-right-bold"></i></a></div>
+</div>
+
+<div class="section fp-auto-height">
+{include file="footer" /}
+</div>
+</body>
+</html>

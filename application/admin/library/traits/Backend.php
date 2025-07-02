@@ -324,15 +324,14 @@ trait Backend
             $this->model->where($this->dataLimitField, 'in', $adminIds);
         }
         $count = 0;
-        Db::startTrans();
+
         try {
             $list = $this->model->where($this->model->getPk(), 'in', $ids)->select();
             foreach ($list as $item) {
                 $count += $item->allowField(true)->isUpdate(true)->save($values);
             }
-            Db::commit();
         } catch (PDOException|Exception $e) {
-            Db::rollback();
+
             $this->error($e->getMessage());
         }
         if ($count) {
