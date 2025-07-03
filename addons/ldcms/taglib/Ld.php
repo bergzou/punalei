@@ -26,7 +26,18 @@ class Ld extends TagLib
         'pics'     => ['attr' => 'value', 'close' => 1],
         'listrows' => ['attr' => 'cid', 'close' => 0],
         'levelnav'     => ['attr' => '', 'close' => 1],
+        'urlname'     => ['attr' => 'cid', 'close' => 0],
     ];
+
+
+    public function tagListrows($tag,$content)
+    {
+        $cid   = $tag['cid'] ?? 0;
+        $parse = '<?php ';
+        $parse .= 'echo \addons\ldcms\model\Document::instance()->getUrlName(' . $cid . ');';
+        $parse .= '?>';
+        return $parse;
+    }
 
     /*资源加载*/
     public function tagSrc($tag)
@@ -384,12 +395,6 @@ eof;
         return $parse;
     }
 
-    public function tagListrows($tag,$content)
-    {
-        $cid   = $tag['cid'] ?? 0;
-        $parse = '<?php ';
-        $parse .= 'echo \addons\ldcms\model\Document::instance()->getListRows(' . $cid . ');';
-        $parse .= '?>';
-        return $parse;
-    }
+
+
 }

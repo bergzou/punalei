@@ -434,4 +434,13 @@ class Document extends Frontend
         return $this->where('lang', $this->getLang())
             ->where('cid', 'in', $cid)->count();
     }
+
+
+    public function getUrlName($cid)
+    {
+        $categoryModel = Category::instance();
+        $res = $categoryModel->where('id',$cid )->find();
+
+        return $res['urlname'];
+    }
 }

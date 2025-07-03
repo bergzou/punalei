@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file="head" /}
+<body>
+
+<!-- 导航 -->
+{include file="nav" /}
+
+
+<!-- 电脑 -->
+<div class="track global-banner d-none d-md-block">
+    {ld:slide name="down_pc" limit="1"}
+    <img src="{$item.image}" alt="">
+    {/ld:slide}
+</div>
+<!-- 手机 -->
+<div class="track global-banner d-block d-md-none">
+    {ld:slide name="down_mobile" limit="1"}
+    <img src="{$item.image}" alt="">
+    {/ld:slide}
+</div>
+
+
+<!--内容-->
+<div class="track down-container">
+    <div class="container">
+        <div class="down-navigation">
+
+            <div class="down-col">
+                <a href="xiazaizhongxin.html?type=1&name=产品型录" class="down-item">
+                    <i class="iconfont icon-chanpin"></i>产品型录 </a>
+            </div>
+            <div class="down-col">
+                <a href="xiazaizhongxin.html?type=2&name=用户手册" class="down-item">
+                    <i class="iconfont icon-chanpin"></i>用户手册 </a>
+            </div>
+            <div class="down-col">
+                <a href="xiazaizhongxin.html?type=3&name=通讯协议" class="down-item">
+                    <i class="iconfont icon-chanpin"></i>通讯协议 </a>
+            </div>
+            <div class="down-col">
+                <a href="xiazaizhongxin.html?type=4&name=应用驱动软件" class="down-item">
+                    <i class="iconfont icon-chanpin"></i>应用驱动软件 </a>
+            </div>
+
+            <div class="down-col">
+                <a href="xiazaizhongxin.html?type&name=应用产品资料" class="down-item active">
+                    <i class="iconfont icon-chanpin"></i>应用产品资料 </a>
+            </div>
+
+        </div>
+
+        <div class="down-body-container">
+            {php}
+                $type = input('get.type/');
+                $name = input('get.name');
+            {/php}
+            <div class="down-body-title">{$name}</div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <a href="" class="down-item" id="15">
+                        <span>An235xx系列直流电子负载说明书</span>
+                        <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            {ld:list ext="part" mid="6" cid="$item.id"}
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <a href="" class="down-item" id="15">
+                        <span>An235xx系列直流电子负载说明书</span>
+                        <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
+                    </a>
+                </div>
+
+            </div>
+            {/ld:list}
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+{include file="footer" /}
+{include file="full_page" /}
+
+
+</body>
+</html>

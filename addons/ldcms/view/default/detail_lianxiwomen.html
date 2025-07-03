@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file="head" /}
+
+<script>
+  // Add this script right after your base UET tag code
+  window.uetq = window.uetq || [];
+  window.uetq.push('set', { 'pid': {
+      'em': 'contoso@example.com', // Replace with the variable that holds the user's email address.
+      'ph': '+14250000000', // Replace with the variable that holds the user's phone number.
+    } });
+</script>
+
+<body>
+<!-- 导航 -->
+{include file="nav" /}
+
+
+<!-- 电脑 -->
+<div class="track global-banner d-none d-md-block">
+  {ld:slide name="contact_pc" limit="1"}
+  <img src="{$item.image}" alt="">
+  {/ld:slide}
+</div>
+<!-- 手机 -->
+<div class="track global-banner d-block d-md-none">
+  {ld:slide name="contact_mobile" limit="1"}
+  <img src="{$item.image}" alt="">
+  {/ld:slide}
+</div>
+
+  <!--内容-->
+  
+<div class="track contact-container container">
+  <div class="contact-body">
+    <div class="contact-body-text">
+      <div class="contact-body-text-title">	{$ld.sitesubtitle}</div>
+      <div class="contact-body-text-content">
+        <a href="tel:400-0532-991" class="content-item"><i class="iconfont icon-guhua"></i>固话：{$ld.tel}</a>
+        <div class="content-item"><i class="iconfont icon-qq"></i>QQ： 	{$ld.qq}</div>
+        <a href="tel:18560798561" class="content-item"><i class="iconfont icon-shumashouji"></i>手机：{$ld.phone}</a>
+        <a href="mailto:sale@ainuo.com" class="content-item"><i class="iconfont icon-youjianyouxiang"></i>邮箱：	{$ld.email}</a>
+        <div class="content-item"><i class="iconfont icon-dizhi"></i>地址：{$ld.address}</div>
+      </div>
+    </div>
+    <div class="contact-body-code">
+      <img src="{$ld.wechat}" alt="">
+      <div class="intro">艾诺官方公众号</div>
+    </div>
+  </div>
+  <div class="contact-header" style="padding-top: 60px;">
+    <div class="header-title">我们在这里等待您的到来</div>
+    <div class="header-back"></div>
+    <div class="header-address">{$ld.address}</div>
+  </div>
+  <div id="map" class="contact-map"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=5wkmvfQmFLTPZwKoRZCsb9ocHhitcSBb"></script>
+<script>
+  $(function () {
+    const coord = {
+      lng: {$ld.lng},
+      lat: {$ld.lat}
+    }
+
+
+
+    var map = new BMap.Map("map", {
+      coordsType: 5,
+      enableBizAuthLogo: false
+    })
+    var point = new BMap.Point(coord.lng, coord.lat)  // 创建点坐标
+    map.centerAndZoom(point, 16)        // 初始化地图，设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true)     //开启鼠标滚轮缩放
+
+    // 定义自定义覆盖物的构造函数
+    function SquareOverlay(center){
+      this._center = center;
+    }
+    // 继承API的BMap.Overlay
+    SquareOverlay.prototype = new BMap.Overlay();
+
+    // 实现初始化方法
+    SquareOverlay.prototype.initialize = function(map){
+      // 保存map对象实例
+      this._map = map;
+
+      var $tag = $('<div class="map-sign-box" style="position: absolute;"><img src="{$ld.chart}" alt=""></div>')
+      var tag = $tag[0];
+
+      // 将dom添加到覆盖物容器中
+      map.getPanes().markerPane.appendChild(tag);
+      // 保存dom实例
+      this._tag = tag;
+      // 需要将 dom 作为方法的返回值，当调用该覆盖物的show、
+      // hide方法，或者对覆盖物进行移除时，API都将操作此元素。
+      return tag;
+    }
+
+
+    // 实现绘制方法
+    SquareOverlay.prototype.draw = function(){
+      // 根据地理坐标转换为像素坐标，并设置给容器
+      var w = $(this._tag).width();
+      var h = $(this._tag).height();
+      var position = this._map.pointToOverlayPixel(this._center);
+      this._tag.style.left = position.x - w / 2 + "px";
+      this._tag.style.top = position.y - h / 2 + "px";
+    }
+
+    var mySquare = new SquareOverlay(coord);
+    map.addOverlay(mySquare);
+  })
+</script>
+
+
+
+
+    
+<!-- footer -->
+{include file="footer" /}
+{include file="full_page" /}
+
+
+</body>
+</html>
