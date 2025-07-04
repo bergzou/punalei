@@ -365,4 +365,22 @@ return [
         'visible' => '',
         'extend' => '',
     ],
+    [
+        'rule' => '',
+        'group' => '基础',
+        'type' => 'image',
+        'name' => 'favicon',
+        'title' => '页面图标',
+        'setting' => [
+            'table' => '',
+            'conditions' => '',
+            'key' => '',
+            'value' => '',
+        ],
+        'value' => 'http://qiniu.zhishiqiu.com/uploads/20250630/2989458b611dfb3cf45d6cdac7f9dc68.png',
+        'content' => '',
+        'tip' => '',
+        'visible' => '',
+        'extend' => '',
+    ],
 ];
