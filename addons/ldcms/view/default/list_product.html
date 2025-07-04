@@ -52,11 +52,13 @@
         <!--是否是上级并且第一位-->
         {if $category['pid'] != 0}
         {ld:levelnav level="3" mid="6"}
-        {if $key == 0}
-        <a href="{$item.url}" class="item active">{$item.name}</a>
+
+        {if $item.id == $category['id'] }
+         <a href="{$item.url}" class="item active">{$item.name}</a>
         {else /}
         <a href="{$item.url}" class="item">{$item.name}</a>
         {/if}
+
         {/ld:levelnav}
         {/if}
     </div>

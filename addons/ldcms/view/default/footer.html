@@ -4,33 +4,44 @@
         <div class="footer-body container fix">
             <div class="body-main">
 
+                {ld:nav pid="0"}
+                    {if $item.mid=="6"}
+                    <div class="main-item d-none d-lg-block">
+                        <a href="{$item.url}" class="link-title">{$item.name}</a>
+                        {ld:nav pid="$item['id']"}
+                        <a href="{$item.url}" class="item-link">{$item.name}</a>
+                        {/ld:nav}
+                    </div>
+                    {/if}
+                {/ld:nav}
+
+                {ld:nav pid="0"}
+                {if $item.mid=="2"}
                 <div class="main-item d-none d-lg-block">
-                    <a href="21.html" class="link-title">产品介绍</a>
-                    <a href="58.html" class="item-link">交直流电源系列</a>
-                    <a href="60.html" class="item-link">航空电源系列</a>
-                    <a href="59.html" class="item-link">测试仪器系列</a>
-                    <a href="227.html" class="item-link">电子负载系列</a>
+                    <a href="{$item.url}" class="link-title">{$item.name}</a>
+                    {ld:nav pid="$item['id']"}
+                    <a href="{$item.url}" class="item-link">{$item.name}</a>
+                    {/ld:nav}
                 </div>
+                {/if}
+                {/ld:nav}
                 <div class="main-item d-none d-lg-block">
-                    <a href="22.html" class="link-title">解决方案</a>
-                    <a href="209.html" class="item-link">新能源汽车行业</a>
-                    <a href="210.html" class="item-link">光伏储能行业</a>
-                    <a href="272.html" class="item-link">电池测试行业</a>
-                    <a href="211.html" class="item-link">工业机械电子</a>
-                    <a href="208.html" class="item-link">航空航天行业</a>
+                    <a href="xiazaizhongxin.html" class="link-title">下载中心</a>
+                    <a href="xiazaizhongxin.html?type=1&name=产品型录" class="item-link">产品型录</a>
+                    <a href="xiazaizhongxin.html?type=2&name=用户手册" class="item-link">用户手册</a>
+                    <a href="xiazaizhongxin.html?type=3&name=通讯协议" class="item-link">通讯协议</a>
+                    <a href="xiazaizhongxin.html?type=4&name=应用驱动软件" class="item-link">应用驱动软件</a>
+                    <a href="xiazaizhongxin.html?type=5&name=应用产品资料" class="item-link">应用产品资料</a>
                 </div>
+
                 <div class="main-item d-none d-lg-block">
-                    <a href="23.html" class="link-title">应用案例</a>
-                    <a href="52.html" class="item-link">新能源汽车行业</a>
-                    <a href="51.html" class="item-link">光伏储能行业</a>
-                    <a href="274.html" class="item-link">电池测试行业</a>
-                    <a href="50.html" class="item-link">工业机械电子</a>
-                    <a href="53.html" class="item-link">航空航天行业</a>
-                </div>
-                <div class="main-item d-none d-lg-block">
-                    <a href="32.html" class="link-title">艾诺资讯</a>
-                    <a href="32.html" class="item-link">企业新闻</a>
-                    <a href="33.html" class="item-link">行业动态</a>
+                    <a href="guanyupunalei.html" class="link-title">关于普纳雷</a>
+                    <a href="lianxiwomen.html" class="item-link">联系我们</a>
+                    {ld:nav pid="0"}
+                    {if $item.mid=="0"}
+                    <a href="{$item.outlink}" class="item-link">{$item.name}</a>
+                    {/if}
+                    {/ld:nav}
                 </div>
 
                 <div class="main-item main-contact">

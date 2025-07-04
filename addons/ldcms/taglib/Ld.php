@@ -27,7 +27,32 @@ class Ld extends TagLib
         'listrows' => ['attr' => 'cid', 'close' => 0],
         'levelnav'     => ['attr' => '', 'close' => 1],
         'urlname'     => ['attr' => 'cid', 'close' => 0],
+        'download'     => ['attr' => '', 'close' => 1],
     ];
+
+
+    /*导航*/
+    public function tagDownload($tag, $content)
+    {
+
+        $type   = isset($tag['type']) ? $tag['type'] : 0;
+        $mid   = isset($tag['mid']) ? $tag['mid'] : 0;
+        $cid   = isset($tag['cid']) ? $tag['cid'] : 0;
+        $limit = isset($tag['limit']) ? $tag['limit'] : '';
+        $empty = isset($tag['empty']) ? $tag['empty'] : '';
+        $key   = !empty($tag['key']) ? $tag['key'] : 'i';
+        $mod   = isset($tag['mod']) ? $tag['mod'] : '2';
+        $alias = isset($tag['alias']) ? $tag['alias'] : 'item';
+        $var   = Random::alnum(10);
+        $parse = '<?php ';
+        $parse .= '$__' . $var . '__ =\addons\ldcms\model\Document::instance()->getDownload(' . $type . ',' . $mid . ',' . $cid . ',"' . $limit . '");';
+        $parse .= '?>';
+        $parse .= '{volist name="$__' . $var . '__" id="' . $alias . '" empty="' . $empty . '" key="' . $key . '" mod="' . $mod . '"}';
+        $parse .= $content;
+        $parse .= '{/volist}';
+
+        return $parse;
+    }
 
 
     public function tagListrows($tag,$content)

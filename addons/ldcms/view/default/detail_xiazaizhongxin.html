@@ -23,66 +23,64 @@
 
 <!--内容-->
 <div class="track down-container">
+
+    {php}
+    $type = input('get.type/');
+    $name = input('get.name');
+    {/php}
+
     <div class="container">
+
         <div class="down-navigation">
 
             <div class="down-col">
-                <a href="xiazaizhongxin.html?type=1&name=产品型录" class="down-item">
+                <a href="xiazaizhongxin.html?type=1&name=产品型录" class="down-item {if condition='$type == 1'}active{/if}">
                     <i class="iconfont icon-chanpin"></i>产品型录 </a>
             </div>
             <div class="down-col">
-                <a href="xiazaizhongxin.html?type=2&name=用户手册" class="down-item">
+                <a href="xiazaizhongxin.html?type=2&name=用户手册" class="down-item {if condition='$type == 2'}active{/if}">
                     <i class="iconfont icon-chanpin"></i>用户手册 </a>
             </div>
             <div class="down-col">
-                <a href="xiazaizhongxin.html?type=3&name=通讯协议" class="down-item">
+                <a href="xiazaizhongxin.html?type=3&name=通讯协议" class="down-item {if condition='$type == 3'}active{/if}">
                     <i class="iconfont icon-chanpin"></i>通讯协议 </a>
             </div>
             <div class="down-col">
-                <a href="xiazaizhongxin.html?type=4&name=应用驱动软件" class="down-item">
+                <a href="xiazaizhongxin.html?type=4&name=应用驱动软件" class="down-item {if condition='$type == 4'}active{/if}">
                     <i class="iconfont icon-chanpin"></i>应用驱动软件 </a>
             </div>
 
             <div class="down-col">
-                <a href="xiazaizhongxin.html?type&name=应用产品资料" class="down-item active">
+                <a href="xiazaizhongxin.html?type=5&name=应用产品资料" class="down-item {if condition='$type == 5'}active{/if}">
                     <i class="iconfont icon-chanpin"></i>应用产品资料 </a>
             </div>
 
         </div>
 
+
+
         <div class="down-body-container">
-            {php}
-                $type = input('get.type/');
-                $name = input('get.name');
-            {/php}
+
+
             <div class="down-body-title">{$name}</div>
 
             <div class="row">
 
+                {ld:download  type="$type" mid="6"}
                 <div class="col-12 col-md-6">
-                    <a href="" class="down-item" id="15">
-                        <span>An235xx系列直流电子负载说明书</span>
+                    <a href="{$item.url}" class="down-item" id="{$item.id}">
+                        <span>{$item.name}</span>
                         <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
                     </a>
                 </div>
+                {/ld:download}
 
             </div>
 
-            {ld:list ext="part" mid="6" cid="$item.id"}
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <a href="" class="down-item" id="15">
-                        <span>An235xx系列直流电子负载说明书</span>
-                        <i class="iconfont icon-xiazai-wenjianxiazai-10"></i>
-                    </a>
-                </div>
-
-            </div>
-            {/ld:list}
 
 
         </div>
+
     </div>
 </div>
 

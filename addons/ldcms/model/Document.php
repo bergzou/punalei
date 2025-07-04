@@ -443,4 +443,118 @@ class Document extends Frontend
 
         return $res['urlname'];
     }
+
+
+
+    public function getDownload($type = 0, $mid = 0, $cid = 0, $limit='')
+    {
+
+        $field = 'document.id,document.title,document_product.catalog,
+        document_product.handbook,document_product.agreement,
+        document_product.drive,document_product.resource';
+        $result = Db::table('fa_ldcms_document')->alias('document')
+            ->join('fa_ldcms_document_product document_product', 'document_product.document_id=document.id', 'LEFT')
+            ->field($field)->whereNull('document.delete_time')->where('mid', '=', 6)->select();
+        Log::write($type,'download');
+        Log::write(json_encode($result),'download');
+
+        $res = [];
+
+        if (!empty($result)) {
+
+            foreach ($result as $key => $value) {
+                switch ($type) {
+                    case 1:
+                        if (!empty($value['catalog'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'产品型录',
+                                'url' =>  $value['catalog'],
+                            ];
+                        }
+
+                        break;
+                    case 2:
+
+                        if (!empty($value['handbook'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'用户手册',
+                                'url' =>  $value['handbook'],
+                            ];
+                        }
+                        break;
+                    case 3:
+                        if (!empty($value['agreement'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'通讯协议',
+                                'url' =>  $value['agreement'],
+                            ];
+                        }
+                        break;
+                    case 4:
+                        if (!empty($value['drive'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'应用驱动软件',
+                                'url' =>  $value['drive'],
+                            ];
+                        }
+                        break;
+                    case 5:
+                        if (!empty($value['resource'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'应用产品资料',
+                                'url' =>  $value['resource'],
+                            ];
+                        }
+                        break;
+                    default:
+                        if (!empty($value['catalog'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'产品型录',
+                                'url' =>  $value['catalog'],
+                            ];
+                        }
+                        if (!empty($value['handbook'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'用户手册',
+                                'url' =>  $value['handbook'],
+                            ];
+                        }
+                        if (!empty($value['agreement'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'通讯协议',
+                                'url' =>  $value['agreement'],
+                            ];
+                        }
+                        if (!empty($value['drive'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'应用驱动软件',
+                                'url' =>  $value['drive'],
+                            ];
+                        }
+                        if (!empty($value['resource'])){
+                            $res[] = [
+                                'id' => $value['id'],
+                                'name' => $value['title'].'-'.'应用产品资料',
+                                'url' =>  $value['resource'],
+                            ];
+                        }
+
+
+                        break;
+                }
+            }
+        }
+
+        Log::write(json_encode($res),'download');
+        return $res;
+    }
 }
