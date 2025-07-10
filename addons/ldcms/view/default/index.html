@@ -128,152 +128,52 @@
             <div class="container home">
 
                 <div class="product-controller animate__animated animate__slower">
-                    <a class="controller-item active" href="66.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
+                    {ld:levelnav level="1" mid="6" cid = "$item['id']"}
+                    {if $key == 0}
+                    <a class="controller-item active" href="{$item.url}">
+                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt=""><!--动态-->
                         <div class="product-item">
                             <div class="img">
-                                <img class="product-icon" src="uploads/images/20220829/9c95e0f620c80a8f51d0e13888909be0.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220829/c96771f89df5a09e4a47864284bf57bb.png" alt=""><!--蓝-->
+                                <img class="product-icon" src="{$item.image}" alt=""><!--黑-->
+                                <img class="product-icon active" src="{$item.big_image}" alt=""><!--蓝-->
                             </div>
-                            <div class="title">交流电源系列</div>
+                            <div class="title">{$item.name}</div>
                         </div>
                     </a>
-                    <a class="controller-item " href="67.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
+                    {else /}
+
+                    <a class="controller-item active" href="{$item.url}">
+                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt=""><!--动态-->
                         <div class="product-item">
                             <div class="img">
-                                <img class="product-icon" src="uploads/images/20220829/2901089a25aedf1417f192824240f082.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220829/0fbd30d8c974a8306dee6ecab64ab25c.png" alt=""><!--蓝-->
+                                <img class="product-icon" src="{$item.image}" alt=""><!--黑-->
+                                <img class="product-icon active" src="{$item.big_image}" alt=""><!--蓝-->
                             </div>
-                            <div class="title">直流电源系列</div>
+                            <div class="title">{$item.name}</div>
                         </div>
                     </a>
-                    <a class="controller-item " href="61.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
-                        <div class="product-item">
-                            <div class="img">
-                                <img class="product-icon" src="uploads/images/20220915/5ed50d7dfa781d5ecd4704d4acaab605.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220915/9dd08696a5caeda299fac632fb3f71f4.png" alt=""><!--蓝-->
-                            </div>
-                            <div class="title">航空电源系列</div>
-                        </div>
-                    </a>
-                    <a class="controller-item " href="62.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
-                        <div class="product-item">
-                            <div class="img">
-                                <img class="product-icon" src="uploads/images/20220913/a382ade6435d4443a3cbfb97d574455e.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220913/1aa20d8d26e7f3e7a02d2860b160a0ca.png" alt=""><!--蓝-->
-                            </div>
-                            <div class="title">安规测试仪系列</div>
-                        </div>
-                    </a>
-                    <a class="controller-item " href="63.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
-                        <div class="product-item">
-                            <div class="img">
-                                <img class="product-icon" src="uploads/images/20220915/fa6f8bf9e6a85ea06b92e23225792eb9.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220915/54ab191e77f39052697b33beff35713a.png" alt=""><!--蓝-->
-                            </div>
-                            <div class="title">功率分析仪系列</div>
-                        </div>
-                    </a>
-                    <a class="controller-item " href="65.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
-                        <div class="product-item">
-                            <div class="img">
-                                <img class="product-icon" src="uploads/images/20220914/08437bc27b99b17c660be92214f0df57.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220914/7cc3b5bdc9fb10efe562da8705baf95b.png" alt=""><!--蓝-->
-                            </div>
-                            <div class="title">电机测试系统系列</div>
-                        </div>
-                    </a>
-                    <a class="controller-item " href="64.html">
-                        <img class="bg-img" src="static/modules/cms/images/index-product-icon-active-bg.png" alt=""><!--动态-->
-                        <div class="product-item">
-                            <div class="img">
-                                <img class="product-icon" src="uploads/images/20220915/315f4721cccb089ca52d5c51b1002b98.png" alt=""><!--黑-->
-                                <img class="product-icon active" src="uploads/images/20220915/8789fed6ffc1284252fe925443500b5a.png" alt=""><!--蓝-->
-                            </div>
-                            <div class="title">电子负载系列</div>
-                        </div>
-                    </a>
+                    {/if}
+                    {/ld:levelnav}
+
                 </div>
 
                 <div class="product-swiper-container animate__animated animate__slower">
                     <div class="product-swiper swiper swiper-container">
                         <div class="swiper-wrapper">
-
+                            {ld:levelnav level="1" mid="6" cid="1"}
                             <div class="swiper-slide">
                                 <div class="text">
-                                    <div class="title">交流电源系列</div>
-                                    <div class="content">山东艾诺研发生产电网模拟电源，交流测试电源，单相交流变频电源、三相交流变频电源，常规单相交流电源500w-10kw，三相系列交流电源15kw-2000kw，完全满足客户对电源的日常使用要求。</div>
-                                    <a class="learn-more" href="66.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
+                                    <div class="title">{$item.title}</div>
+                                    <div class="content">
+                                        {$item.seo_description}
+                                    </div>
+                                    <a class="learn-more" href="{$item.url}">查看更多<i class="iconfont icon-sanjiao3"></i></a>
                                 </div>
-                                <a class="img-box" href="66.html">
-                                    <img src="uploads/images/20241207/3df1663db9958dd1fbafb0a4bf24647f.png" alt="">
+                                <a class="img-box" href="{$item.url}">
+                                    <img src="{$item.index_images}" alt="">
                                 </a>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">直流电源系列</div>
-                                    <div class="content">艾诺仪器研发生产直流稳压电源、可编程双向直流电源，电池模拟器，光伏模拟器等电源，产品主要应用于新能源汽车电机及控制器、光伏逆变器、高压开关、汽车电子、DCDC模块设备等。</div>
-                                    <a class="learn-more" href="67.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="67.html">
-                                    <img src="uploads/images/20241207/fdd6ba71deeb49c687cd234574f7a28c.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">航空电源系列</div>
-                                    <div class="content">山东艾诺研发生产28V飞机地面静变电源，270V飞机地面静变电源，储能式飞机地面静变电源，115V 400Hz地面静变电源，产品主要应用于机场近机位、远机位、维修机库、机场停机坪等集中停靠飞机的场所供电使用。</div>
-                                    <a class="learn-more" href="61.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="61.html">
-                                    <img src="uploads/images/20241209/35565d3ac814706f2515274edee39307.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">安规测试仪系列</div>
-                                    <div class="content">艾诺安规测试仪广泛应用于新能源、电动车辆、家用电器、电机线圈、开关电源等电气电子制造企业。</div>
-                                    <a class="learn-more" href="62.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="62.html">
-                                    <img src="uploads/images/20241207/538db1cdbac4f5dc3e080ed780811344.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">功率分析仪系列</div>
-                                    <div class="content">艾诺仪器生产功率计、交直流功率分析仪、三相功率分析仪，质量可靠，性能稳定，艾诺仪器专业研发团队，满足家用电器等行业内的电压电流功率测试需求。</div>
-                                    <a class="learn-more" href="63.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="63.html">
-                                    <img src="uploads/images/20241209/12bc649ee695b09b644eb75ba77cd1ea.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">电机测试系统系列</div>
-                                    <div class="content">艾诺仪器生产电机整机及定子综合测试系统，质量可靠，性能稳定，艾诺仪器专业研发团队，满足电机马达等行业内的电机型式试验测试需求。</div>
-                                    <a class="learn-more" href="65.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="65.html">
-                                    <img src="uploads/images/20241207/08fba5e8bfd04eb71b1dcba16334d09b.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <div class="title">电子负载系列</div>
-                                    <div class="content">艾诺仪器生产的可编程直流电子负载为开关电源，电池，半导体电子等行业提供专业解决方案，欢迎您的选购。</div>
-                                    <a class="learn-more" href="64.html">查看更多<i class="iconfont icon-sanjiao3"></i></a>
-                                </div>
-                                <a class="img-box" href="64.html">
-                                    <img src="uploads/images/20220916/72a80837603b37a2b13dac8bf40c0829.png" alt="">
-                                </a>
-                            </div>
+                            {/ld:levelnav}
 
                         </div>
                     </div>
@@ -302,7 +202,7 @@
                         </a>
                     </div>
                     <div class="img-col animate__animated animate__slower">
-                        <img class="img-main" src="{$item.image}" alt="">
+                        <img class="img-main" src="{$item.index_images}" alt="">
                         <img class="img-bg" src="{ld:src src='default/images/index-about-2.jpg'}" alt="">
                     </div>
                 </div>
@@ -321,14 +221,19 @@
                 <div class="new-content">
                     <div class="news-list swiper swiper-container animate__animated animate__slower">
                         <div class="swiper-wrapper">
-
-                            {ld:list ext="intro,time" mid="2" simple="false"}
+                            {ld:list ext="intro,time,index_img" mid="2" cid="$item['id']" limit="16" simple="false"}
+                            {if $item.tag == "unique" }
                             <div class="swiper-slide">
-                                <a href="{$item.url}" class="news-item unique" style="background-image: url('{$item.image}')">
+                                <a href="{$item.url}" class="news-item unique"
+                                   style="background-image: url('{$item.index_img}')">
                                     <div class="item-text">
                                         <div class="text-time arial">{$item.time}</div>
-                                        <div class="text-title">{$item.title}</div>
-                                        <div class="text-content">{$item.intro}</div>
+                                        <div class="text-title">
+                                            {$item.title}
+                                        </div>
+                                        <div class="text-content">
+                                            {$item.intro}
+                                        </div>
                                         <div class="text-learn-more">
                                             查看更多
                                             <i class="iconfont icon-sanjiao3"></i>
@@ -336,8 +241,29 @@
                                     </div>
                                 </a>
                             </div>
+                            {else /}
+                            <div class="swiper-slide">
+                                <a href="{$item.url}" class="news-item">
+                                    <div class="item-text">
+                                        <div class="text-time arial">{$item.time}</div>
+                                        <div class="text-title">
+                                            {$item.title}
+                                        </div>
+                                        <div class="text-content">
+                                            {$item.intro}
+                                        </div>
+                                        <div class="text-learn-more">
+                                            查看更多
+                                            <i class="iconfont icon-sanjiao3"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-img">
+                                        <img class="img" src="{$item.index_img}" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            {/if}
                             {/ld:list}
-
 
 
                         </div>

@@ -74,7 +74,9 @@ class Ld extends TagLib
     /*导航*/
     public function tagNav($tag, $content)
     {
+
         $pid   = isset($tag['pid']) ? $tag['pid'] : 0;
+        $type   = isset($tag['type']) ? $tag['type'] : 'all';
         $limit = isset($tag['limit']) ? $tag['limit'] : '';
         $empty = isset($tag['empty']) ? $tag['empty'] : '';
         $key   = !empty($tag['key']) ? $tag['key'] : 'i';
@@ -82,7 +84,7 @@ class Ld extends TagLib
         $alias = isset($tag['alias']) ? $tag['alias'] : 'item';
         $var   = Random::alnum(10);
         $parse = '<?php ';
-        $parse .= '$__' . $var . '__ =\addons\ldcms\model\Category::instance()->getHomeNav(' . $pid . ',"' . $limit . '");';
+        $parse .= '$__' . $var . '__ =\addons\ldcms\model\Category::instance()->getHomeNav(' . $pid . ',"' . $type . '","' . $limit . '");';
         $parse .= '?>';
         $parse .= '{volist name="$__' . $var . '__" id="' . $alias . '" empty="' . $empty . '" key="' . $key . '" mod="' . $mod . '"}';
         $parse .= $content;

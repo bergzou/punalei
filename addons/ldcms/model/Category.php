@@ -9,6 +9,8 @@ use addons\ldcms\model\Models as ModelsModel;
 use app\admin\model\ldcms\Document as DocumentModel;
 use think\Cache;
 use think\Db;
+use think\Log;
+use function Qiniu\setWithoutEmpty;
 
 class Category extends Frontend
 {
@@ -167,7 +169,7 @@ class Category extends Frontend
      * @param int $pid  父栏目
      * @return array|mixed
      */
-    public function getHomeNav($pid = 0,$limit='',$level= '')
+    public function getHomeNav($pid = 0, $type='all',$limit='')
     {
         $data = $this->getHomeCategoryData();
         if (empty($data)) {
@@ -176,8 +178,9 @@ class Category extends Frontend
 
         $tree = $top = [];
         foreach ($data['data'] as $value) {
-            if (!$value['is_nav'])
-                continue;
+            if (!$value['is_nav']) continue;
+            if ( $type != 'all' && $value['type'] != $type)  continue;
+
             if ($value['pid']) {
                 $tree[$value['pid']]['child'][] = $value; // 记录到关系树
             }
@@ -206,16 +209,17 @@ class Category extends Frontend
             return [];
         }
         $cids = $this->getChildrenIds($cid);
-        $result = [];
+        $result = $filter = [];
         foreach ($data['data'] as $value) {
             if (!$value['is_nav']) continue;
             if ($mid && $value['mid'] != $mid) continue;
-            if ($level && $value['level']!= $level) continue;
             if ($cid && !in_array($value['id'], $cids)) continue;
+            $filter[] = $value;
+        }
+        foreach ($filter as $value) {
+            if ($level && $value['level'] != $level) continue;
             $result[] = $value;
         }
-
-
         if(!empty($limit)){
             $result=array_slice($result,0,$limit);
         }

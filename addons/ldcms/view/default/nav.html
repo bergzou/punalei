@@ -13,7 +13,7 @@
                     </div>
                 </li>
 
-                {ld:nav pid=0}
+                {ld:nav pid="0" type="0"}
                 <!--产品介绍-->
 
                 {if condition="$item.mid == 6"}
@@ -60,10 +60,12 @@
                                         <a href="{$item.url}" class="page-item-title">{$item.name}</a><!--四级-->
                                         <div class="page-item-content">
 
-                                            {ld:nav pid="$item['id']"}
-                                            <a href="{$item.url}" class="page-item-content-item">{$item.name}                         <text></text>
+                                            {ld:list mid="6" cid="$item.id" limit="200"}
+                                            <a href="{$item.url}" class="page-item-content-item">{$item.title}                         <text></text>
                                             </a><!--五级-->
-                                            {/ld:nav}
+                                            {/ld:list}
+
+
                                         </div>
                                     </div>
 
@@ -125,8 +127,33 @@
                 {/if}
 
                 {/ld:nav}
+
+                <li class="nav-li">
+                </li>
+
+                <li class="nav-li" style="margin-left: 10px;">
+                    <div class="li-a-box">
+                        <div class="li-icons">
+                            <div class="iconfont icon-a-dingbushangchengtubiao1"></div>
+                        </div>
+                        <div class="nav-hide-list">
+                            {ld:nav pid="0" type="1"}
+                            <div class="hide-item">
+                                <a class="hide-item-row" href="{$item.outlink}" target="_blank">
+                                    {$item.name}
+                                    <i class="iconfont icon-icon-arrow-right"></i>
+                                </a>
+                            </div>
+                            {/ld:nav}
+                        </div>
+                    </div>
+                </li>
             </ul>
+
         </div>
+
+
+
 
 
 
