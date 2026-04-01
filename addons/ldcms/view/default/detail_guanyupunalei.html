@@ -11,13 +11,13 @@
 <!-- 电脑 -->
 <div class="track global-banner d-none d-md-block">
     {ld:slide name="about_pc" limit="1"}
-    <img src="{$item.image}" alt="">
+    <img src="{$item.image}" alt="{$item.title}">
     {/ld:slide}
 </div>
 <!-- 手机 -->
 <div class="track global-banner d-block d-md-none">
     {ld:slide name="about_mobile" limit="1"}
-    <img src="{$item.image}" alt="">
+    <img src="{$item.image}" alt="{$item.title}">
     {/ld:slide}
 </div>
 <!-- 面包屑 -->
@@ -35,7 +35,7 @@
         </div>
 
         <div class="intro-img-box">
-            <img src="{$content.intro_img}">
+            <img src="{$content.intro_img}" alt="{$content.title}">
             <div class="iconfont video-btn icon-sanjiao3"></div>
         </div>
     </div>
@@ -49,7 +49,7 @@
 
             <div class="text-item">
                 <div class="icon-box">
-                    <img src="{ld:src src='default/images/a444b7f2ce6f7c2e47badf3071685975.png'}" alt="">
+                    <img src="{ld:src src='default/images/a444b7f2ce6f7c2e47badf3071685975.png'}" alt="使命图标">
                 </div>
                 <div class="right">
                     <div class="title">使命</div>
@@ -58,7 +58,7 @@
             </div>
             <div class="text-item">
                 <div class="icon-box">
-                    <img src="{ld:src src='default/images/4a916922de0305c14126f2abe49a2088.png'}" alt="">
+                    <img src="{ld:src src='default/images/4a916922de0305c14126f2abe49a2088.png'}" alt="愿景图标">
                 </div>
                 <div class="right">
                     <div class="title">愿景</div>
@@ -67,7 +67,7 @@
             </div>
             <div class="text-item">
                 <div class="icon-box">
-                    <img src="{ld:src src='default/images/3467ad57e2c767b07f6bf165ac8785ef.png'}" alt="">
+                    <img src="{ld:src src='default/images/3467ad57e2c767b07f6bf165ac8785ef.png'}" alt="核心价值观图标">
                 </div>
                 <div class="right">
                     <div class="title">核心价值观</div>
@@ -106,7 +106,7 @@
             {ld:pics value="$content['company_ccie']"}
             <div class="swiper-slide">
                 <div class="honor-item">
-                    <img class="item-img" src="{$item}" alt="">
+                    <img class="item-img" src="{$item}" alt="{$content.title} - 荣誉证书">
                 </div>
             </div>
             {/ld:pics}

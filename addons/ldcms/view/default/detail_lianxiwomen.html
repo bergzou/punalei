@@ -12,13 +12,13 @@
 <!-- 电脑 -->
 <div class="track global-banner d-none d-md-block">
   {ld:slide name="contact_pc" limit="1"}
-  <img src="{$item.image}" alt="">
+  <img src="{$item.image}" alt="{$item.title}">
   {/ld:slide}
 </div>
 <!-- 手机 -->
 <div class="track global-banner d-block d-md-none">
   {ld:slide name="contact_mobile" limit="1"}
-  <img src="{$item.image}" alt="">
+  <img src="{$item.image}" alt="{$item.title}">
   {/ld:slide}
 </div>
 
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="contact-body-code">
-      <img src="{$ld.wechat}" alt="">
+      <img src="{$ld.wechat}" alt="普纳雷官方公众号微信二维码">
       <div class="intro">普纳雷官方公众号</div>
     </div>
   </div>
@@ -87,7 +87,7 @@
       // 保存map对象实例
       this._map = map;
 
-      var $tag = $('<div class="map-sign-box" style="position: absolute;"><img src="{$ld.chart}" alt=""></div>')
+      var $tag = $('<div class="map-sign-box" style="position: absolute;"><img src="{$ld.chart}" alt="地图标记图标"></div>')
       var tag = $tag[0];
 
       // 将dom添加到覆盖物容器中

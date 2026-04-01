@@ -8,13 +8,13 @@
 <!-- 电脑 -->
 <div class="track global-banner d-none d-md-block">
   {ld:slide name="new_pc" limit="1"}
-  <img src="{$item.image}" alt="">
+  <img src="{$item.image}" alt="{$item.title}">
   {/ld:slide}
 </div>
 <!-- 手机 -->
 <div class="track global-banner d-block d-md-none">
   {ld:slide name="new_mobile" limit="1"}
-  <img src="{$item.image}" alt="">
+  <img src="{$item.image}" alt="{$item.title}">
   {/ld:slide}
 </div>
 <!-- 面包屑 -->
@@ -28,7 +28,7 @@
     <div class="col-12 col-sm-6 col-md-4">
       <a href="{$item.url}" class="news-list-item">
         <div class="item-img-box">
-          <img class="item-img" src="{$item.image}" alt="">
+          <img class="item-img" src="{$item.image}" alt="{$item.title}">
         </div>
         <div class="text">
           <div class="title">{$item.title}</div>

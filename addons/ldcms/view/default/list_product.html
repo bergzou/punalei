@@ -8,13 +8,13 @@
 <!-- 电脑 -->
 <div class="track global-banner d-none d-md-block">
     {ld:slide name="product_pc" limit="1"}
-    <img src="{$item.image}" alt="">
+    <img src="{$item.image}" alt="{$item.name|default=''}">
     {/ld:slide}
 </div>
 <!-- 手机 -->
 <div class="track global-banner d-block d-md-none">
     {ld:slide name="product_mobile" limit="1"}
-    <img src="{$item.image}" alt="">
+    <img src="{$item.image}" alt="{$item.name|default=''}">
     {/ld:slide}
 </div>
 
@@ -30,8 +30,8 @@
     <div class="primary-navigation">
         {ld:levelnav level="1" mid="6"}
         <a href="{$item.url}" class="item">
-            <img src="{$item.image}" alt="">
-            <img class="selected" src="{$item.big_image}" alt="">
+            <img src="{$item.image}" alt="{$item.name}">
+            <img class="selected" src="{$item.big_image}" alt="{$item.name}">
             <div class="title">{$item.name}</div>
         </a>
         {/ld:levelnav}
@@ -40,8 +40,8 @@
     <div class="primary-navigation">
         {ld:levelnav level="2" mid="6"}
         <a href="{$item.url}" class="item">
-            <img src="{$item.image}" alt="">
-            <img class="selected" src="{$item.big_image}" alt="">
+            <img src="{$item.image}" alt="{$item.name}">
+            <img class="selected" src="{$item.big_image}" alt="{$item.name}">
             <div class="title">{$item.name}</div>
         </a>
         {/ld:levelnav}
@@ -75,7 +75,7 @@
                 <div class="item-title item-type">{$item.title}</div>
                 <div class="item-spec">{$item.part}</div>
                 <div class="item-img-box">
-                    <img class="item-img" src="{$item.image}" alt="">
+                    <img class="item-img" src="{$item.image}" alt="{$item.title}">
                 </div>
                 <div class="item-learn-more">查看更多</div>
             </a>
@@ -91,7 +91,7 @@
                 <div class="item-title item-type">{$item.title}</div>
                 <div class="item-spec">{$item.part}</div>
                 <div class="item-img-box">
-                    <img class="item-img" src="{$item.image}" alt="">
+                    <img class="item-img" src="{$item.image}" alt="{$item.title}">
                 </div>
                 <div class="item-learn-more">查看更多</div>
             </a>

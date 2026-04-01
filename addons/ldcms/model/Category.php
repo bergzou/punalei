@@ -133,7 +133,7 @@ class Category extends Frontend
                 ->where('status', 1)
                 ->where('lang', $lang)
                 ->where($authWhere)
-                ->field('update_time,status,sort', true)
+                ->field('status,sort', true)
                 ->order($this->getSort())
                 ->select();
             if (collection($res)->isEmpty()) {

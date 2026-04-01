@@ -22,7 +22,7 @@
 
                         {ld:pics value="$content['pics']"}
                         <div class="swiper-slide">
-                            <img src="{$item}" alt="">
+                            <img src="{$item}" alt="{$content.title}">
                         </div>
                         {/ld:pics}
                         
@@ -36,7 +36,7 @@
 
                             {ld:pics value="$content['pics']"}
                             <div class="swiper-slide">
-                                <img src="{$item}" alt="">
+                                <img src="{$item}" alt="{$content.title}">
                             </div>
                             {/ld:pics}
                             
@@ -46,7 +46,7 @@
 
             </div>
             <div class="col-12 col-md-6">
-                <div class="pro-title">{$content.title}</div>
+                <h1 class="pro-title">{$content.title}</h1>
                 <div class="pro-content">
                     <div class="tag-container">
                         <div class="tag-title">型号：</div>
@@ -191,7 +191,7 @@
                 <div class="item-title">{$item.title}</div>
                 <div class="item-spec">{$item.part}</div>
                 <div class="item-img-box">
-                    <img class="item-img" src="{$item.image}" alt="">
+                    <img class="item-img" src="{$item.image}" alt="{$item.title}">
                 </div>
                 <div class="item-learn-more">查看更多</div>
             </a>

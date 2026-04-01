@@ -8,7 +8,7 @@
 <!-- 箭头 -->
 <!-- 箭头 -->
 <div class="home-bounce">
-    <img class="arrow" src="{ld:src src='default/images/jiantou.png'}" alt="">
+    <img class="arrow" src="{ld:src src='default/images/jiantou.png'}" alt="向下滑动查看更多内容">
     <div class="shadow"></div>
     <div class="particle-container">
         <div class="particle animated-particle"></div>
@@ -103,9 +103,9 @@
                     <div class="bg d-none d-lg-block"
                          style="background-image: url({$item.image});"></div>
                     <img class="d-block d-lg-none" src="{$item.image}"
-                         alt="">
+                         alt="{$item.name|default='Banner'}">
                     <div class="banner-word">
-                        <div class="title">{$item.title}</div>
+                        <div class="title">{$item.title|default=''}</div>
                         <div class="subtitle empty"></div>
                         <div class="link">了解更多<i class="iconfont icon-icon-arrow-right"></i></div>
                     </div>
@@ -131,23 +131,23 @@
                     {ld:levelnav level="1" mid="6" cid = "$item['id']"}
                     {if $key == 0}
                     <a class="controller-item active" href="{$item.url}">
-                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt=""><!--动态-->
+                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt="{$item.name}"><!--动态-->
                         <div class="product-item">
                             <div class="img">
-                                <img class="product-icon" src="{$item.image}" alt=""><!--黑-->
-                                <img class="product-icon active" src="{$item.big_image}" alt=""><!--蓝-->
+                                <img class="product-icon" src="{$item.image}" alt="{$item.name}"><!--黑-->
+                                <img class="product-icon active" src="{$item.big_image}" alt="{$item.name}"><!--蓝-->
                             </div>
                             <div class="title">{$item.name}</div>
                         </div>
                     </a>
                     {else /}
 
-                    <a class="controller-item active" href="{$item.url}">
-                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt=""><!--动态-->
+                    <a class="controller-item" href="{$item.url}">
+                        <img class="bg-img" src="{ld:src src='default/images/index-product-icon-active-bg.png'}" alt="{$item.name}"><!--动态-->
                         <div class="product-item">
                             <div class="img">
-                                <img class="product-icon" src="{$item.image}" alt=""><!--黑-->
-                                <img class="product-icon active" src="{$item.big_image}" alt=""><!--蓝-->
+                                <img class="product-icon" src="{$item.image}" alt="{$item.name}"><!--黑-->
+                                <img class="product-icon active" src="{$item.big_image}" alt="{$item.name}"><!--蓝-->
                             </div>
                             <div class="title">{$item.name}</div>
                         </div>
@@ -163,14 +163,14 @@
                             {ld:levelnav level="1" mid="6" cid="1"}
                             <div class="swiper-slide">
                                 <div class="text">
-                                    <div class="title">{$item.title}</div>
+                                    <div class="title">{$item.name}</div>
                                     <div class="content">
                                         {$item.seo_description}
                                     </div>
                                     <a class="learn-more" href="{$item.url}">查看更多<i class="iconfont icon-sanjiao3"></i></a>
                                 </div>
                                 <a class="img-box" href="{$item.url}">
-                                    <img src="{$item.index_images}" alt="">
+                                    <img src="{$item.index_images}" alt="{$item.name}">
                                 </a>
                             </div>
                             {/ld:levelnav}
@@ -202,8 +202,8 @@
                         </a>
                     </div>
                     <div class="img-col animate__animated animate__slower">
-                        <img class="img-main" src="{$item.index_images}" alt="">
-                        <img class="img-bg" src="{ld:src src='default/images/index-about-2.jpg'}" alt="">
+                        <img class="img-main" src="{$item.index_images}" alt="{$item.name}">
+                        <img class="img-bg" src="{ld:src src='default/images/index-about-2.jpg'}" alt="{$item.name} 背景">
                     </div>
                 </div>
             </div>

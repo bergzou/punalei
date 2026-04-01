@@ -21,17 +21,29 @@ class Sitemap extends Base
     public function index()
     {
         $list=[];
-        $list[]= $this->makeNode('', date('Y-m-d'), '1.00'); // 根目录
-        $category=Category::instance()->getHomeCategoryData();
-        $document=Document::instance();
-        foreach ($category['data'] as $item){
-            $list[]=$this->makeNode($item['url'],date('Y-m-d'),'0.80');
-            $doclist=$document->getHomeList(['cid'=>$item['id']]);
-            foreach ($doclist as $doc){
-                $list[]=$this->makeNode($doc['url'],date('Y-m-d'));
+        $categoryModel = Category::instance();
+        $categoryData = $categoryModel->getHomeCategoryData();
+        $documentModel = Document::instance();
+
+        // 根目录，如果有更新时间，建议取最新文章的更新时间，这里暂时用今天
+        $list[]= $this->makeNode('', date('Y-m-d'), '1.00'); 
+
+        if (isset($categoryData['data'])) {
+            foreach ($categoryData['data'] as $item) {
+                // 生成栏目节点的 URL
+                $lastmod = isset($item['update_time']) ? date('Y-m-d', $item['update_time']) : date('Y-m-d');
+                $list[] = $this->makeNode($item['url'], $lastmod, '0.80');
+
+                // 获取该栏目下的所有文章
+                $doclist = $documentModel->getHomeList(['cid' => $item['id']]);
+                foreach ($doclist as $doc) {
+                    $doc_lastmod = isset($doc['update_time']) ? date('Y-m-d', $doc['update_time']) : date('Y-m-d');
+                    $list[] = $this->makeNode($doc['url'], $doc_lastmod);
+                }
             }
         }
-        return Response::create($list, 'xml', 200, [],$this->options);
+
+        return Response::create($list, 'xml', 200, [], $this->options);
     }
 
     // 生成结点信息
