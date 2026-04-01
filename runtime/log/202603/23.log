@@ -1,0 +1,1227 @@
+---------------------------------------------------------------
+[ 2026-03-23T19:43:12+08:00 ] 185.12.59.118 GET 120.24.147.77/Dr0v
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:45:38+08:00 ] 170.106.179.68 GET 120.24.147.77/ldcms/zhiliudianyuanshumaxilie/327.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:50:19+08:00 ] 176.65.149.253 GET 120.24.147.77/config.json
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:50:19+08:00 ] 176.65.149.253 GET 120.24.147.77/config.json
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:55:22+08:00 ] 101.33.66.34 GET 120.24.147.77/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ download ] 3
+---------------------------------------------------------------
+[ 2026-03-23T19:55:22+08:00 ] 101.33.66.34 GET 120.24.147.77/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ download ] [{"id":242,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9510\\15\\20\\30\\45\\60-\\TSS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":244,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9530\\60-\\GSD\\GSS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":260,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9505\\10-\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":262,"title":"\u5355\u76f8\u578bPNL300-A\u4ea4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20260309\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"},{"id":263,"title":"\u6cc4\u6f0f\u7535\u6d41\u6d4b\u8bd5\u4eeaPNL2675\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":264,"title":" \u63a5\u5730\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2678XM\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":268,"title":"\u591a\u901a\u9053\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2818-X\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":270,"title":"\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2511\u6570\u7801\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/405841dc3a1790083cdfb28d392a51b6.pdf","agreement":"","drive":"","resource":""},{"id":271,"title":"\u591a\u8def\u6e29\u5ea6\u5de1\u68c0\u6d4b\u8bd5\u4eeaP2000-X PLUS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/88bebf25cc9f75277abfb9945aa00ebc.pdf","agreement":"","drive":"","resource":""},{"id":272,"title":"\u624b\u6301\u591a\u8def\u6e29\u5ea6\u6d4b\u8bd5\u4eeaP300-S\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/4eeb7970b89981df90d0560b8dbe2ff8.pdf","agreement":"","drive":"","resource":""},{"id":290,"title":"\u4ea4\u6d41\u6052\u6d41\u6e90","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":291,"title":"\u4e09\u76f8\u578bPNL300-S\u7cfb\u52170.2\u7ea7","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/5f7e3f318e22f4a79790e06a66ac2625.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/5f7e3f318e22f4a79790e06a66ac2625.pdf"},{"id":295,"title":"\u5c0f\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/3c0024e1494ae6a3a5ee57c6e55308d8.pdf","agreement":"","drive":"","resource":""},{"id":298,"title":"\u533b\u7528\u6cc4\u6f0f\u7535\u6d41\u6d4b\u8bd5\u4eea","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":299,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66763U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":300,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 10kw-15kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":303,"title":"\u5b89\u89c4\u7efc\u5408\u6821\u51c6\u70b9\u68c0\u5de5\u88c5","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":304,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea5KV\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":306,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea10KV\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":307,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea20KV\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":308,"title":"\u7a0b\u63a7\u8010\u538b\u7edd\u7f18PNL7110\\PNL7122\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":309,"title":"\u5b89\u5168\u7efc\u5408\u6027\u80fd\u5206\u6790\u4eeaPNL9950\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":311,"title":"\u5355\u4e09\u76f8 - \u5b89\u5168\u7efc\u5408\u6027\u80fd\u5206\u6790\u4eeaPNL9950-C\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":312,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9515\\20\\30\\45\\60-\\TSD\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":314,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9520\\30-\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":315,"title":"\u7edd\u7f18\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2682N\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/7c63757a23e5e98e594bf1b4bf50445a.pdf","agreement":"","drive":"","resource":""},{"id":316,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9510\\15\\20-\\TD\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":317,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9530\\50-\\G\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":318,"title":"\u4e09\u76f8\u578b\u8c10\u6ce2PNL300-SX\u7cfb\u52170.2\u7ea7","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/c3915be2288c668d42fab75c77d557b6.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/c3915be2288c668d42fab75c77d557b6.pdf"},{"id":319,"title":"\u7edd\u7f18\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2683AL\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/29f9570871ea60e153dce0b05698a13e.pdf","agreement":"","drive":"","resource":""},{"id":320,"title":"\u5bbd\u8303\u56f4\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2513\/15\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/d94e60f7d79a2b3b6d9b106bf787c6db.pdf","agreement":"","drive":"","resource":""},{"id":321,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66764U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":322,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66765U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":323,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667620K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":324,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667640K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":325,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667660K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":326,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 20kw-30kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":327,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 40kw-60kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":328,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 75kw-90kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":329,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-U \u9ad8\u538b\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":330,"title":"\u4ea4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/18ff267d1dc26e503128741d78be61d7.pdf","agreement":"","drive":"","resource":""},{"id":331,"title":"\u4ea4\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/04725819a3c60dff3e1af918dc2ccaf2.pdf","agreement":"","drive":"","resource":""},{"id":332,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/639e5850541f700cdc64053f1d7a18a7.pdf","agreement":"","drive":"","resource":""},{"id":333,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/3c0024e1494ae6a3a5ee57c6e55308d8.pdf","agreement":"","drive":"","resource":""},{"id":337,"title":"\u5355\u76f8\u578bPNL300-C\u4ea4\u76f4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"},{"id":338,"title":"\u80fd\u6548\u578bPNL300-E\u4ea4\u76f4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"}]
+---------------------------------------------------------------
+[ 2026-03-23T19:55:22+08:00 ] 101.33.66.34 GET 120.24.147.77/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ download ] []
+---------------------------------------------------------------
+[ 2026-03-23T19:55:36+08:00 ] 43.130.34.74 GET punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T19:59:09+08:00 ] 216.180.246.9 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T19:59:11+08:00 ] 216.180.246.9 GET 120.24.147.77/manage/account/login
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:59:11+08:00 ] 216.180.246.9 GET 120.24.147.77/manage/account/login
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:59:12+08:00 ] 216.180.246.9 GET 120.24.147.77/admin/index.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:59:12+08:00 ] 216.180.246.9 GET 120.24.147.77/admin/index.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T19:59:14+08:00 ] 216.180.246.9 GET 120.24.147.77/index.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:00:59+08:00 ] 84.247.143.27 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:02:50+08:00 ] 34.62.246.23 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:03:24+08:00 ] 43.135.144.126 GET www.punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:05:38+08:00 ] 43.166.132.142 GET 120.24.147.77/ldcms/punaleiPNAIanguijiaozhunzhuangzhi/303.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:08:58+08:00 ] 101.33.55.204 GET punalei.cn/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:08:58+08:00 ] 101.33.55.204 GET punalei.cn/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:16:45+08:00 ] 192.36.109.78 GET punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:18:29+08:00 ] 43.167.232.38 GET punalei.cn/xiazaizhongxin.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:18:29+08:00 ] 43.167.232.38 GET punalei.cn/xiazaizhongxin.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:25:37+08:00 ] 43.130.3.122 GET 120.24.147.77/ldcms/sanxiangjiaoliubianpindianyuan/244.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:27:30+08:00 ] 35.233.118.74 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:33+08:00 ] 35.187.175.164 OPTIONS 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:33+08:00 ] 35.187.175.164 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:34+08:00 ] 35.187.175.164 JRBO 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:27:34+08:00 ] 35.187.175.164 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:27:34+08:00 ] 35.187.175.164 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:35+08:00 ] 35.187.175.164 HEAD 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:36+08:00 ] 35.187.175.164 POST 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:38+08:00 ] 35.187.175.164 OPTIONS 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:27:40+08:00 ] 35.187.175.164 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:29:02+08:00 ] 43.130.101.151 GET punalei.cn/xiazaizhongxin.html?type=3&name=通讯协议
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:29:02+08:00 ] 43.130.101.151 GET punalei.cn/xiazaizhongxin.html?type=3&name=通讯协议
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:35:49+08:00 ] 43.156.109.53 GET 120.24.147.77/ldcms/jueyuandianzuceshiyi/315.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:35:50+08:00 ] 170.106.113.159 GET www.punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:39:09+08:00 ] 43.165.65.180 GET punalei.cn/lianxiwomen.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:39:09+08:00 ] 43.165.65.180 GET punalei.cn/lianxiwomen.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:46:04+08:00 ] 43.166.226.186 GET 120.24.147.77/ldcms/dansanxiangzhinenganguizonghefenxiyi
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:46:04+08:00 ] 43.166.226.186 GET 120.24.147.77/ldcms/dansanxiangzhinenganguizonghefenxiyi
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:48:07+08:00 ] 43.166.142.76 GET punalei.cn/ldcms/zhiliudianyuanshumaxilie/327.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:53:01+08:00 ] 40.77.167.158 GET www.punalei.cn/ldcms/punaleiPNAIduogongnenganguixilie/308.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:55:32+08:00 ] 43.135.144.81 GET 120.24.147.77/ldcms/punaleiPNAIdangongnenganguixilie/263.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T20:55:36+08:00 ] 176.65.149.234 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:56:36+08:00 ] 43.131.36.84 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T20:59:25+08:00 ] 101.32.208.70 GET punalei.cn/ldcms/punaleiPNAIduogongnenganguixilie/309.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:05:31+08:00 ] 77.83.39.162 GET 120.24.147.77/.git/refs/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:06:34+08:00 ] 43.130.67.6 GET 120.24.147.77/ldcms/punaleiPNAIanguijiaozhunzhuangzhi/303.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:13:21+08:00 ] 27.21.28.16 GET www.punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T21:13:21+08:00 ] 27.21.28.16 GET www.punalei.cn/ldcms/lianxiwomen.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:13:21+08:00 ] 27.21.28.16 GET www.punalei.cn/lianxiwomen.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:13:21+08:00 ] 27.21.28.16 GET www.punalei.cn/lianxiwomen.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:15:24+08:00 ] 43.159.138.217 GET 120.24.147.77/ldcms/sanxiangjiaoliubianpindianyuan/244.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:24:45+08:00 ] 43.157.148.38 GET 120.24.147.77/ldcms/sanxiangjiaoliubianpindianyuan/244.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:28:47+08:00 ] 43.152.72.247 GET www.punalei.cn/ldcms/2jidanxianggonglvjiPNL300xilie/262.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:32:26+08:00 ] 172.236.228.111 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T21:33:59+08:00 ] 43.157.149.188 GET 120.24.147.77/ldcms/jiaoliuhengliuyuanxilie.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:35:10+08:00 ] 45.79.207.111 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T21:38:34+08:00 ] 101.33.81.73 GET www.punalei.cn/ldcms/zhiliudianzifuzai/332.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:44:52+08:00 ] 177.190.67.44 GET 0.0.0.0/admin/config.php
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:45:51+08:00 ] 43.153.107.22 GET 120.24.147.77/xiazaizhongxin.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:45:51+08:00 ] 43.153.107.22 GET 120.24.147.77/xiazaizhongxin.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:50:01+08:00 ] 43.130.67.6 GET punalei.cn/ldcms/sanxiangjiaoliubianpindianyuan/242.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:55:41+08:00 ] 43.159.152.184 GET 120.24.147.77/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:55:41+08:00 ] 43.159.152.184 GET 120.24.147.77/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T21:59:09+08:00 ] 170.106.181.163 GET punalei.cn/ldcms/xiaogongshuaizhiliudianzifuzaiPNLxilie.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:01:51+08:00 ] 149.86.227.60 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T22:06:19+08:00 ] 167.250.224.25 GET 0.0.0.0/admin/config.php
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:09:21+08:00 ] 43.157.22.57 GET www.punalei.cn/ldcms/chanpinjieshao.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:11:49+08:00 ] 177.190.67.44 GET 120.24.147.77/admin/config.php
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:18:26+08:00 ] 43.157.46.118 GET www.punalei.cn/ldcms/2jidanxianggonglvjiPNL300xilie/291.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:18:59+08:00 ] 59.173.110.191 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T22:19:42+08:00 ] 66.228.53.174 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T22:20:25+08:00 ] 52.167.144.166 GET www.punalei.cn/ldcms/jueyuandianzuceshiyi.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:28:44+08:00 ] 43.157.67.70 GET www.punalei.cn/ldcms/zhiliudianzifuzai/295.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:35:37+08:00 ] 173.255.221.189 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T22:36:13+08:00 ] 167.250.224.25 GET 120.24.147.77/admin/config.php
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:39:10+08:00 ] 43.130.37.243 GET www.punalei.cn/ldcms/ceshi.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:45:58+08:00 ] 66.132.172.103 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:45:58+08:00 ] 66.132.172.103 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:46:05+08:00 ] 66.132.172.103 GET 120.24.147.77/5s7406bp043
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:46:06+08:00 ] 66.132.172.103 GET 120.24.147.77/5s7406bp043
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:49:04+08:00 ] 170.106.148.137 GET punalei.cn/ldcms/dansanxiangzhinenganguizonghefenxiyi
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:49:04+08:00 ] 170.106.148.137 GET punalei.cn/ldcms/dansanxiangzhinenganguizonghefenxiyi
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T22:59:01+08:00 ] 43.166.251.233 GET punalei.cn/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ download ] 3
+---------------------------------------------------------------
+[ 2026-03-23T22:59:01+08:00 ] 43.166.251.233 GET punalei.cn/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ download ] [{"id":242,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9510\\15\\20\\30\\45\\60-\\TSS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":244,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9530\\60-\\GSD\\GSS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":260,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9505\\10-\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":262,"title":"\u5355\u76f8\u578bPNL300-A\u4ea4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20260309\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"},{"id":263,"title":"\u6cc4\u6f0f\u7535\u6d41\u6d4b\u8bd5\u4eeaPNL2675\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":264,"title":" \u63a5\u5730\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2678XM\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":268,"title":"\u591a\u901a\u9053\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2818-X\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":270,"title":"\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2511\u6570\u7801\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/405841dc3a1790083cdfb28d392a51b6.pdf","agreement":"","drive":"","resource":""},{"id":271,"title":"\u591a\u8def\u6e29\u5ea6\u5de1\u68c0\u6d4b\u8bd5\u4eeaP2000-X PLUS\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/88bebf25cc9f75277abfb9945aa00ebc.pdf","agreement":"","drive":"","resource":""},{"id":272,"title":"\u624b\u6301\u591a\u8def\u6e29\u5ea6\u6d4b\u8bd5\u4eeaP300-S\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/4eeb7970b89981df90d0560b8dbe2ff8.pdf","agreement":"","drive":"","resource":""},{"id":290,"title":"\u4ea4\u6d41\u6052\u6d41\u6e90","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":291,"title":"\u4e09\u76f8\u578bPNL300-S\u7cfb\u52170.2\u7ea7","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/5f7e3f318e22f4a79790e06a66ac2625.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/5f7e3f318e22f4a79790e06a66ac2625.pdf"},{"id":295,"title":"\u5c0f\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/3c0024e1494ae6a3a5ee57c6e55308d8.pdf","agreement":"","drive":"","resource":""},{"id":298,"title":"\u533b\u7528\u6cc4\u6f0f\u7535\u6d41\u6d4b\u8bd5\u4eea","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":299,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66763U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":300,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 10kw-15kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":303,"title":"\u5b89\u89c4\u7efc\u5408\u6821\u51c6\u70b9\u68c0\u5de5\u88c5","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":304,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea5KV\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":306,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea10KV\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":307,"title":"\u8010\u538b\u6d4b\u8bd5\u4eea20KV\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":308,"title":"\u7a0b\u63a7\u8010\u538b\u7edd\u7f18PNL7110\\PNL7122\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":309,"title":"\u5b89\u5168\u7efc\u5408\u6027\u80fd\u5206\u6790\u4eeaPNL9950\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":311,"title":"\u5355\u4e09\u76f8 - \u5b89\u5168\u7efc\u5408\u6027\u80fd\u5206\u6790\u4eeaPNL9950-C\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":312,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9515\\20\\30\\45\\60-\\TSD\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":314,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9520\\30-\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":315,"title":"\u7edd\u7f18\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2682N\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/7c63757a23e5e98e594bf1b4bf50445a.pdf","agreement":"","drive":"","resource":""},{"id":316,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9510\\15\\20-\\TD\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":317,"title":"1-300V\/45-400Hz \u4ea4\u6d41\u53d8\u9891\u7535\u6e90 P9530\\50-\\G\\D\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","agreement":"","drive":"","resource":""},{"id":318,"title":"\u4e09\u76f8\u578b\u8c10\u6ce2PNL300-SX\u7cfb\u52170.2\u7ea7","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/c3915be2288c668d42fab75c77d557b6.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/c3915be2288c668d42fab75c77d557b6.pdf"},{"id":319,"title":"\u7edd\u7f18\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2683AL\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/29f9570871ea60e153dce0b05698a13e.pdf","agreement":"","drive":"","resource":""},{"id":320,"title":"\u5bbd\u8303\u56f4\u76f4\u6d41\u7535\u963b\u6d4b\u8bd5\u4eeaPNL2513\/15\u7cfb\u5217","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/d94e60f7d79a2b3b6d9b106bf787c6db.pdf","agreement":"","drive":"","resource":""},{"id":321,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66764U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":322,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u66765U\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":323,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667620K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":324,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667640K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":325,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6db2\u667660K\u7cfb\u5217","catalog":"","handbook":"","agreement":"","drive":"","resource":""},{"id":326,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 20kw-30kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":327,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 40kw-60kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":328,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-Y 75kw-90kw\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":329,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u6e90\u6570\u7801PNL-U \u9ad8\u538b\u7cfb\u5217","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/6991e7a5b3190aa67ef71fc5ef74964e.pdf","agreement":"","drive":"","resource":""},{"id":330,"title":"\u4ea4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/18ff267d1dc26e503128741d78be61d7.pdf","agreement":"","drive":"","resource":""},{"id":331,"title":"\u4ea4\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/04725819a3c60dff3e1af918dc2ccaf2.pdf","agreement":"","drive":"","resource":""},{"id":332,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/639e5850541f700cdc64053f1d7a18a7.pdf","agreement":"","drive":"","resource":""},{"id":333,"title":"\u5927\u529f\u7387\u76f4\u6d41\u7535\u5b50\u8d1f\u8f7d","catalog":"","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/3c0024e1494ae6a3a5ee57c6e55308d8.pdf","agreement":"","drive":"","resource":""},{"id":337,"title":"\u5355\u76f8\u578bPNL300-C\u4ea4\u76f4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"},{"id":338,"title":"\u80fd\u6548\u578bPNL300-E\u4ea4\u76f4\u6d41\u7cfb\u52170.2\u7ea7","catalog":"https:\/\/qiniu.punalei.cn\/uploads\/20250630\/9f6157e1177e99e4fe3674e8d06014a8.pdf","handbook":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf","agreement":"","drive":"","resource":"https:\/\/qiniu.punalei.cn\/uploads\/20250811\/ed50ce8156e54152582ff3356228093d.pdf"}]
+---------------------------------------------------------------
+[ 2026-03-23T22:59:01+08:00 ] 43.166.251.233 GET punalei.cn/ldcms/xiazaizhongxin.html?type=3&name=通讯协议
+[ download ] []
+---------------------------------------------------------------
+[ 2026-03-23T23:05:08+08:00 ] 43.130.100.35 GET www.punalei.cn/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:07:50+08:00 ] 43.157.170.13 GET www.punalei.cn/ldcms/gaosutongdaocaijiwenduceshiyiPNL2000PLUSxilie/272.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:14:54+08:00 ] 157.55.39.9 GET www.punalei.cn/ldcms/gonglvfenxiyichanpin.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:18:44+08:00 ] 49.51.203.164 GET www.punalei.cn/ldcms/jiaoliubianpindianyuan.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:23:23+08:00 ] 43.165.67.57 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:28:40+08:00 ] 43.157.20.63 GET www.punalei.cn/ldcms/zhiliudianzuceshiyiPNL2511xilie/268.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:34:57+08:00 ] 20.221.68.115 GET 120.24.147.77/version
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:34:57+08:00 ] 20.221.68.115 GET 120.24.147.77/version
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:37:30+08:00 ] 43.153.87.54 GET 120.24.147.77/index.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:38:59+08:00 ] 43.167.236.228 GET www.punalei.cn/ldcms/ceshi/325.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:43:43+08:00 ] 172.236.228.222 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:47:01+08:00 ] 66.132.186.163 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:47:03+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:03+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:05+08:00 ] 66.132.186.163 GET 120.24.147.77/lpd5feircosp
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:05+08:00 ] 66.132.186.163 GET 120.24.147.77/lpd5feircosp
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:16+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:16+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:52+08:00 ] 43.173.1.69 GET 120.24.147.77/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:47:52+08:00 ] 43.173.1.69 GET 120.24.147.77/guanyupunalei.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:49:49+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:49:49+08:00 ] 66.132.186.163 GET 120.24.147.77/favicon.ico
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:49:56+08:00 ] 66.132.186.163 GET 120.24.147.77/y8cr01g17q
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:49:56+08:00 ] 66.132.186.163 GET 120.24.147.77/y8cr01g17q
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:55:20+08:00 ] 18.116.101.220 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:56:08+08:00 ] 18.116.101.220 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+---------------------------------------------------------------
+[ 2026-03-23T23:57:28+08:00 ] 43.152.72.244 GET 120.24.147.77/ldcms/zhiliudianyuanshumaxilie.html
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+---------------------------------------------------------------
+[ 2026-03-23T23:57:46+08:00 ] 85.239.238.86 GET 120.24.147.77/
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+[ error ] [8192]Automatic conversion of false to array is deprecated
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
+[ error ] [2]Undefined array key "title"
